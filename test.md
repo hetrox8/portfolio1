@@ -1,1 +1,2 @@
-"This file is ignored  by git".
+
+"This file is igonred by git"
