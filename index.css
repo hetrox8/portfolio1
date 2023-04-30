@@ -15,10 +15,25 @@ body {
   z-index: 1;
 }
 
+nav a {
+  padding-right: 3%;
+}
+
+.logo a {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
 .link nav > a {
   text-decoration: none;
   display: inline-block;
   flex-direction: row;
+}
+
+.logo {
+  margin-top: 20px;
+  color: #6070ff;
+  font-size: 16px;
 }
 
 .nav-bar .logo {
@@ -28,29 +43,14 @@ body {
   margin-left: 10px;
 }
 
-.nav-bar .dashboard {
-  margin-right: 10px;
-  margin-top: 20px;
-}
-
-nav a {
-  padding-right: 3%;
-}
-
-.logo {
-  margin-top: 20px;
-  color: #6070ff;
-  font-size: 16px;
-}
-
-.logo a {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
 .dashboard {
   border: 0 solid #acb7c3;
   color: #6070ff;
+}
+
+.nav-bar .dashboard {
+  margin-right: 10px;
+  margin-top: 20px;
 }
 
 .container {
@@ -83,14 +83,4 @@ h2 {
   font-style: normal;
   top: 20%;
   bottom: 20%;
-}
-
-nav a {
-  padding-right: 3%;
-}
-
-.link nav > a {
-  text-decoration: none;
-  display: inline-block;
-  flex-direction: row;
 }
