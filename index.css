@@ -33,7 +33,6 @@ body {
   margin-top: 20px;
 }
 
-.links,
 nav a {
   padding-right: 3%;
 }
@@ -86,12 +85,12 @@ h2 {
   bottom: 20%;
 }
 
+nav a {
+  padding-right: 3%;
+}
+
 .link nav > a {
   text-decoration: none;
   display: inline-block;
   flex-direction: row;
 }
-  nav a {
-    padding-right: 3%;
-  }
-
