@@ -8,11 +8,7 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 @media (min-width: 375px) {
-  .nav-bar{
-    display: flex;
-    font-size: 18px;
 }
-
 
 * {
   font-family: "Poppins", sans-serif;
@@ -93,6 +89,6 @@ h2 {
 }
 
 .links,
-.logo nav a {
+nav a {
   padding-right: 3%;
 }
