@@ -90,7 +90,7 @@ h2 {
   text-decoration: none;
   display: inline-block;
   flex-direction: row;
-  
+}
   nav a {
     padding-right: 3%;
   }
