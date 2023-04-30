@@ -13,6 +13,7 @@ body {
     font-size: 18px;
 }
 
+
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -92,6 +93,6 @@ h2 {
 }
 
 .links,
-nav a {
+.logo nav a {
   padding-right: 3%;
 }
