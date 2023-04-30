@@ -87,14 +87,13 @@ h2 {
   bottom: 20%;
 }
 
-
 .link nav > a {
   text-decoration: none;
   display: inline-block;
   flex-direction: row;
-=======
+}
+
 .links,
 nav a {
-  padding-right: 3%;
-  
+  padding-right: 3%;  
 }
