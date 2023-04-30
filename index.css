@@ -9,8 +9,6 @@ body {
 
 @media (max-width: 375px)
 html {
-    font-size: 13px;
- }
 
 .nav-bar {
   display: flex;
