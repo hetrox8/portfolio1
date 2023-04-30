@@ -15,17 +15,26 @@ body {
   z-index: 1;
 }
 
-.logo {
-  margin-top: 20px;
-  color: #6070ff;
-  font-size: 16px;
-}
-
 .nav-bar .logo {
   flex-wrap: wrap;
   flex: 1;
   order: none;
   margin-left: 10px;
+}
+
+.nav-bar .dashboard {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.links,
+nav a {
+  padding-right: 3%;
+}
+
+.logo {
+  margin-top: 20px;
+  color: #6070ff;
+  font-size: 16px;
 }
 
 .logo a {
@@ -36,11 +45,6 @@ body {
 .dashboard {
   border: 0 solid #acb7c3;
   color: #6070ff;
-}
-
-.nav-bar .dashboard {
-  margin-right: 10px;
-  margin-top: 20px;
 }
 
 .container {
@@ -79,9 +83,4 @@ h2 {
   text-decoration: none;
   display: inline-block;
   flex-direction: row;
-}
-
-.links,
-nav a {
-  padding-right: 3%;
 }
