@@ -15,12 +15,6 @@ body {
   z-index: 1;
 }
 
-.link nav > a {
-  text-decoration: none;
-  display: inline-block;
-  flex-direction: row;
-}
-
 .nav-bar .logo {
   flex-wrap: wrap;
   flex: 1;
@@ -28,9 +22,20 @@ body {
   margin-left: 10px;
 }
 
+.dashboard {
+  border: 0 solid #acb7c3;
+  color: #6070ff;
+}
+
 .nav-bar .dashboard {
   margin-right: 10px;
   margin-top: 20px;
+}
+
+.link nav > a {
+  text-decoration: none;
+  display: inline-block;
+  flex-direction: row;
 }
 
 .links,
@@ -38,6 +43,10 @@ nav a {
   padding-right: 3%;
 }
 
+.links,
+nav a {
+  padding-right: 3%;  
+}
 
 .logo {
   margin-top: 20px;
@@ -48,11 +57,6 @@ nav a {
 .logo a {
   font-size: 1.2rem;
   font-weight: 700;
-}
-
-.dashboard {
-  border: 0 solid #acb7c3;
-  color: #6070ff;
 }
 
 .container {
@@ -87,13 +91,3 @@ h2 {
   bottom: 20%;
 }
 
-.link nav > a {
-  text-decoration: none;
-  display: inline-block;
-  flex-direction: row;
-}
-
-.links,
-nav a {
-  padding-right: 3%;  
-}
