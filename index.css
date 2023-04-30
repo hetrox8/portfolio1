@@ -15,6 +15,12 @@ body {
   z-index: 1;
 }
 
+.link nav > a {
+  text-decoration: none;
+  display: inline-block;
+  flex-direction: row;
+}
+
 .nav-bar .logo {
   flex-wrap: wrap;
   flex: 1;
@@ -26,10 +32,12 @@ body {
   margin-right: 10px;
   margin-top: 20px;
 }
+
 .links,
 nav a {
   padding-right: 3%;
 }
+
 
 .logo {
   margin-top: 20px;
@@ -79,8 +87,14 @@ h2 {
   bottom: 20%;
 }
 
+
 .link nav > a {
   text-decoration: none;
   display: inline-block;
   flex-direction: row;
+=======
+.links,
+nav a {
+  padding-right: 3%;
+  
 }
