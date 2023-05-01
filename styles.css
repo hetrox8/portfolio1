@@ -91,14 +91,11 @@ h1 {
   padding-top: 10px;
   margin-top: 32%;
   overflow: hidden;
-  color: #172b4d;
-  line-height: 30px;
   font-style: normal;
   font-size: 32px;
   text-transform: capitalize;
-  font-family: 'poppins';
   line-height: 42px;
-
+  color: #172b4d;
 }
 
 .intro > p {
@@ -119,7 +116,6 @@ h2 {
   bottom: 20%;
 }
 
-.link > a  .one .two .three .four .five{
-  
-  background: #505F79
+.link > a .one .two .three .four .five {
+  background: #505f79;
 }
