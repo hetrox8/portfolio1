@@ -15,6 +15,7 @@ body {
   .nav-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 19px;
   }
 }
@@ -23,6 +24,7 @@ body {
   .nav-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 19px;
   }
 
@@ -102,7 +104,7 @@ h1 {
   text-align: left;
   left: 10px;
   margin-top: 0;
-  font-size: 14px;
+  font-size: 14.3px;
   color: #344563;
 }
 
