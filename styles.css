@@ -50,7 +50,7 @@ nav a {
   font-weight: 700;
 }
 
-.link nav > a {
+.link nav a {
   text-decoration: none;
   display: inline-block;
   flex-direction: row;
@@ -116,6 +116,17 @@ h2 {
   font-style: normal;
   top: 20%;
   bottom: 20%;
+}
+
+.media-icons {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+}
+
+.media-icons li {
+  padding-right: 6%;
 }
 
 .link > a .one .two .three .four .five {
