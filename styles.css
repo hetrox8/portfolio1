@@ -92,19 +92,34 @@ h1 {
   margin-top: 32%;
   overflow: hidden;
   color: #172b4d;
+  line-height: 30px;
+  font-style: normal;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: 'poppins';
+  line-height: 42px;
+
 }
 
-.intro p {
+.intro > p {
   text-align: left;
   left: 10px;
-  margin-top: 0 0;
+  margin-top: 0;
+  font-size: 14px;
+  color: #344563;
 }
 
 h2 {
   color: #7f8ccf;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.3em;
   font-weight: 400;
   font-style: normal;
   top: 20%;
   bottom: 20%;
+}
+
+.link > a  .one .two .three .four .five{
+  
+  background: #505F79
 }
