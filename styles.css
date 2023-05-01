@@ -118,14 +118,14 @@ h2 {
   bottom: 20%;
 }
 
-.social-media-icons {
+.media-icons {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   padding-inline-start: 0;
 }
 
-.social-media-icons li {
+.media-icons li {
   padding-right: 6%;
 }
 
