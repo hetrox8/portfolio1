@@ -23,11 +23,7 @@ body {
   }
 
   body {
-    font-size: 19px;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: capitalize;
-    overflow: hidden;
+    background-color: #fff;
   }
 }
 
