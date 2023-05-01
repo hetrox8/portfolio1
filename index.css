@@ -7,9 +7,19 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-@media (max-width: 375px)
-html {
-   font-size:19px
+@media (min-width: 375px) {
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px
+}
+}
+  
+@media (min-width: 768px) {
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
 }
 
 .nav-bar {
