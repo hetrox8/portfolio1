@@ -3,6 +3,7 @@ body {
   overflow: hidden;
   background-color: #ffff;
   box-sizing: border-box;
+  overflow: scroll
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -132,3 +133,60 @@ h2 {
 .link > a .one .two .three .four .five {
   background: #505f79;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns:50px 50px ;
+  grid-template-rows: 50px 50px ;
+  background-color: #ffff;
+}
+
+  .works {
+    display: grid;
+    height: 60%;
+    grid-template-columns: 1fr;
+    row-gap: 4.5rem;
+    padding-top: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 2%;
+    margin-bottom: 6.5%;
+    margin-top: 17%;
+    border: 2px  solid #DFE1E6;
+    border-radius: 20px  20px;
+    box-sizing: border-box;
+  }
+.cards{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 1.6rem;
+  padding: 4%;
+  
+}
+.card1 img{
+  width: fit-content;
+  margin: 0;
+  margin-top: -16%;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 2;
+  height: 100%;
+}
+
+.details h1{
+  font-weight: 700;
+  font-size: 2.3rem;
+  padding-left: 2%;
+  margin-top: 1%;
+ 
+}
+
+
