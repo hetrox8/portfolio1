@@ -3,6 +3,7 @@ body {
   overflow: hidden;
   background-color: #ffff;
   box-sizing: border-box;
+  overflow: scroll
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -85,7 +86,9 @@ nav a {
   flex-direction: column;
   background-image: url('./images/header-shapes\ mobile.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; 
+  justify-content: center;
+  
 }
 
 h1 {
@@ -131,4 +134,130 @@ h2 {
 
 .link > a .one .two .three .four .five {
   background: #505f79;
+}
+
+.works {
+  margin-top: 30px;
+  justify-content: space-around;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  box-sizing: border-box;
+  
+}
+.card-works{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius:20px 20px;
+  padding: 4%;
+
+  
+}
+
+.first-image{
+ width: 100px;
+}
+
+.headings{
+ font-size: 32px;
+ text-decoration: none;
+ font-weight: 700;
+ line-height: 16px;
+ color: #172B4D;
+ padding-top: 2px;
+
+}
+
+
+.first-item{
+display: inline-flex;
+flex-direction: row;
+gap: 12px;
+text-align: left;
+}
+
+.one {
+  columns: #344563;
+  font-weight:700 ;
+  list-style-type: none;
+   line-height: 18px;
+}
+ .one a{
+  text-decoration: none;
+  color:#344563 ;
+
+ }
+
+ .other {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+
+ }
+  .other a{
+     text-decoration: none;
+     color: #7A869A;
+  }
+
+  .text-1{
+    display: flex;
+    flex-direction: column;
+    color: #344563;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+   
+  }
+
+  .item-2{
+    letter-spacing: 0.04em;
+    margin-block-start: 1rem;
+    margin-block-end: 1.5rem;
+    padding-inline-start: 0;
+  }
+
+   .item-2 li   {
+   list-style-type: none;
+   border-radius: 20px 20px;
+   line-height: 15px;
+   }
+
+    .item-2 a {
+      list-style-type: none;
+      text-decoration: none;
+    }
+
+  .link-item{
+    display: inline-block;
+    background: #ebebff;
+    border-radius: 0.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: #6070ff;
+  }
+ a{
+  text-decoration: none;
+ }
+
+.see{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  border:  2px solid #396Df2;
+  color: #396DF2;
+  width: 40%;
+  border-radius: 10px 12px;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
