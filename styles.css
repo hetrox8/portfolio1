@@ -173,35 +173,36 @@ h2 {
 
 
 .first-item{
-display: inline-flex;
-flex-direction: row;
-gap: 12px;
-text-align: left;
-}
-
-.one {
-  columns: #344563;
-  font-weight:700 ;
-  list-style-type: none;
-   line-height: 18px;
-}
- .one a{
-  text-decoration: none;
-  color:#344563 ;
-
- }
-
- .other {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 14px;
-
- }
-  .other a{
-     text-decoration: none;
-     color: #7A869A;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 12px;
+  text-align: left;
   }
-
+  
+  .one {
+    columns: #344563;
+    font-weight:700 ;
+    list-style-type: none;
+     line-height: 18px;
+  }
+   .one a{
+    text-decoration: none;
+    color:#344563 ;
+  
+   }
+  
+   .other {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+  
+   }
+    .other a{
+       text-decoration: none;
+       color: #7A869A;
+    }
+  
+  
   .text-1{
     display: flex;
     flex-direction: column;
