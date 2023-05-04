@@ -1,6 +1,5 @@
 body {
   text-transform: capitalize;
-  overflow: hidden;
   background-color: #ffff;
   box-sizing: border-box;
   overflow: scroll;
@@ -67,17 +66,22 @@ nav a {
   color: #7a869a;
 }
 
-.link nav a {
-  text-decoration: none;
-  display: inline-block;
-  flex-direction: row;
-}
-
 .item-2 {
   letter-spacing: 0.04em;
   margin-block-start: 1rem;
   margin-block-end: 1.5rem;
   padding-inline-start: 0;
+}
+
+.item-2 a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.link nav a {
+  text-decoration: none;
+  display: inline-block;
+  flex-direction: row;
 }
 
 .logo {
@@ -116,21 +120,21 @@ nav a {
 .iam {
   color: #172b4d;
   font-weight: 700;
+  font-style: normal;
   font-size: 32px;
   margin: 0;
   padding-top: 10px;
   margin-top: 22%;
-  font-style: normal;
   text-transform: capitalize;
   line-height: 42px;
 }
 
 .firstp {
+  color: #344563;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
 }
 
 .lets-connect {
@@ -203,7 +207,6 @@ nav a {
   line-height: 18px;
 }
 
-
 .other {
   padding-left: 22px;
   font-weight: 600;
@@ -220,16 +223,10 @@ nav a {
   font-weight: 400;
 }
 
-
 .item-2 li {
   list-style-type: none;
   border-radius: 20px 20px;
   line-height: 15px;
-}
-
-.item-2 a {
-  list-style-type: none;
-  text-decoration: none;
 }
 
 .link-item {
@@ -244,7 +241,6 @@ nav a {
   font-size: 0.75rem;
   color: #6070ff;
 }
-
 
 .see {
   font-size: 18px;
@@ -295,16 +291,13 @@ nav a {
 }
 
 .skills {
-  font-size: 20px;
-  font-weight: 500;
   font-style: normal;
   line-height: 24px;
   color: #0000;
   font-size: 26px;
-  line-height: 24px;
+  font-weight: 500;
   padding-bottom: 2px;
 }
-
 
 .languages {
   padding-left: 2px;
@@ -324,8 +317,4 @@ nav a {
   font-weight: 500;
   border-bottom: 2px solid #dfe1e6;
   padding-top: 8px;
-}
-
-.skills {
- 
 }
