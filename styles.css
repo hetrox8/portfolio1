@@ -261,3 +261,29 @@ text-align: left;
   margin-left: 5px;
   margin-right: 5px;
 }
+
+.resume {
+
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  border:  2px solid #396Df2;
+  color: #396DF2;
+  width: 40%;
+  border-radius: 10px 12px;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+ h1{
+ color:#0000;
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
