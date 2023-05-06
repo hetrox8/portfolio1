@@ -396,7 +396,7 @@ button {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  background: #FFFFFF;
+  background: #fff;
   border: 2px solid #fff;
   padding: 4%;
   border-top-right-radius: 5pc;
