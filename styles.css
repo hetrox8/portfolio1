@@ -326,7 +326,7 @@ button {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  padding-top: 30%;
+  padding-top: 20%;
   margin: 0;
 }
 
@@ -385,4 +385,15 @@ button {
 .icon2 {
   float: right;
   padding-right: 50px;
+}
+
+.works1 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px 5pc;
+  padding: 4%;
 }
