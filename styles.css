@@ -1,6 +1,6 @@
 body {
   text-transform: capitalize;
-  background-color: #ffff;
+  background-color: #e5e5e5;
   box-sizing: border-box;
   overflow: scroll;
 }
@@ -29,8 +29,12 @@ body {
   }
 
   body {
-    background-color: #fff;
+    background-color: #e5e5e5;
   }
+}
+
+header {
+  background-color: #fff;
 }
 
 .nav-bar {
@@ -118,12 +122,14 @@ nav a {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   background-image: url('./images/header-shapes\ mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  padding: 2rem;
+  background-color: #ffff;
+  border-bottom-left-radius: 4pc;
 }
 
 .iam {
@@ -391,7 +397,7 @@ button {
   flex-direction: column;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #cacfdb;
-  border-radius: 16px 5pc;
+  border: 2px solid #fff;
   padding: 4%;
+  border-top-right-radius: 5pc;
 }
