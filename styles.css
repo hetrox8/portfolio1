@@ -71,7 +71,9 @@ nav a {
 }
 
 .item-2 {
-  float: inline-start;
+  margin-right: 6%;
+  float: left;
+  position: relative;
   left: 6%;
   margin-left: -6%;
 }
