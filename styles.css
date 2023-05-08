@@ -71,10 +71,8 @@ nav a {
 }
 
 .item-2 {
-  letter-spacing: 0.04em;
-  margin-block-start: 1rem;
-  margin-block-end: 1.5rem;
-  padding-inline-start: 0;
+  float: inline-start;
+  left: 6%;
 }
 
 .item-2 a {
@@ -401,3 +399,4 @@ button {
   padding: 4%;
   border-top-right-radius: 5pc;
 }
+
