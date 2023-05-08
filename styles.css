@@ -73,6 +73,7 @@ nav a {
 .item-2 {
   float: inline-start;
   left: 6%;
+  margin-left: -6%;
 }
 
 .item-2 a {
