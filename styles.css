@@ -1,6 +1,6 @@
 body {
   text-transform: capitalize;
-  background-color: #e5e5e5;
+  background-color: #fff;
   box-sizing: border-box;
   overflow: scroll;
 }
@@ -403,60 +403,64 @@ button {
 }
 
 .contact {
- background-color: #ffff;
- background-image: url('./images/Contact\ me.png');
- background-size: cover;
- background-repeat: no-repeat;
+  background-color: #ffff;
+  background-image: url('./images/Contact\ me.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .h-contact {
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-text-align: center;
-padding-top: 21%;
-padding-bottom: 11%;
-line-height: 52px;
-color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 21%;
+  padding-bottom: 11%;
+  line-height: 52px;
+  color: #fff;
+  margin: 0;
+  margin-top: 12%;
 }
 
 .para {
-padding-top: 1%;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-color: #fff;
-line-height: 28px;
-text-align: center;
+  padding-top: 1%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
 }
 
 input {
   border: none;
-  width: 60%;
-  height: 35px;
+  width: 80%;
+  height: 45px;
   border-radius: 10px 5pt;
   padding-left: 6%;
   padding-right: 6%;
   display: block;
   margin-top: 4%;
   margin-bottom: 4%;
-  
-
 }
+
 input::placeholder {
-  color: #000;
+  color:  ;
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
 }
 
 form {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* Form outline */
-    padding: 1em;
-    border-radius: 1em;
-   
+  /* Center the form on the page */
+  margin: 0;
+  width: 400px;
+
+  /* Form outline */
+  padding: 1em;
+  border-radius: 1em;
 }
 
 fieldset {
@@ -464,11 +468,20 @@ fieldset {
   padding: 2rem auto;
 }
 
-textarea  {
-  text-align: left;
+textarea {
   border-radius: 20px 20px;
+  border: none;
 }
 
 .l-b {
-
+  width: 35%;
+  height: 35px;
+  background-color: #fff;
+  color: #6070ff;
+  margin-top: 6%;
 }
+
+button {
+ margin-top: 3%;
+}
+
