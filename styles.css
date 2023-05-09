@@ -403,3 +403,27 @@ button {
   border-top-right-radius: 5pc;
 }
 
+.contact-me {
+  background-image: url('images/Contact\ me.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.contact {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #ffff;
+}
+
+.para {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+}
