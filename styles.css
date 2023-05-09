@@ -445,12 +445,10 @@ input {
 }
 
 input::placeholder {
-  color:  ;
- font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 form {
@@ -480,8 +478,3 @@ textarea {
   color: #6070ff;
   margin-top: 6%;
 }
-
-button {
- margin-top: 3%;
-}
-
