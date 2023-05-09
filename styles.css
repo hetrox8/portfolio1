@@ -401,3 +401,74 @@ button {
   padding: 4%;
   border-top-right-radius: 5pc;
 }
+
+.contact {
+ background-color: #ffff;
+ background-image: url('./images/Contact\ me.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.h-contact {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+text-align: center;
+padding-top: 21%;
+padding-bottom: 11%;
+line-height: 52px;
+color: #fff;
+}
+
+.para {
+padding-top: 1%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #fff;
+line-height: 28px;
+text-align: center;
+}
+
+input {
+  border: none;
+  width: 60%;
+  height: 35px;
+  border-radius: 10px 5pt;
+  padding-left: 6%;
+  padding-right: 6%;
+  display: block;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  
+
+}
+input::placeholder {
+  color: #000;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border-radius: 1em;
+   
+}
+
+fieldset {
+  border: none;
+  padding: 2rem auto;
+}
+
+textarea  {
+  text-align: left;
+  border-radius: 20px 20px;
+}
+
+.l-b {
+
+}
