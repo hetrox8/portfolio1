@@ -1,6 +1,6 @@
 body {
   text-transform: capitalize;
-  background-color: #e5e5e5;
+  background-color: #ffff;
   box-sizing: border-box;
   overflow: scroll;
 }
@@ -184,14 +184,16 @@ nav a {
 }
 
 .card-works {
+  background-color: #fff;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 20px 20px;
   padding: 4%;
+  width: 100%;
+  height: 100vh;
 }
 
 .first-image {
@@ -287,6 +289,8 @@ nav a {
   color: #396df2;
   background: #fff;
   height: 50px;
+  padding-left: 3%;
+  margin-left: 3%;
 }
 
 button {
@@ -400,4 +404,98 @@ button {
   border: 2px solid #fff;
   padding: 4%;
   border-top-right-radius: 5pc;
+}
+
+.contact-me {
+  margin-top: 30%;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: #6070ff;
+  border-top-left-radius: 5pc;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  background-image: url('./images/contact\ form\ shapes-mobile.png');
+}
+
+.h-contact {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 21%;
+  padding-bottom: 1%;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 1%;
+  margin-bottom: -2px;
+}
+
+.para {
+  padding-top: 1%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 1%;
+}
+
+input {
+  border: none;
+  width: 80%;
+  height: 45px;
+  border-radius: 10px 5pt;
+  padding-left: 6%;
+  padding-right: 6%;
+  display: block;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0;
+  width: 400px;
+
+  /* Form outline */
+  padding: 1em;
+  border-radius: 1em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem auto;
+}
+
+textarea {
+  border-radius: 20px 20px;
+  border: none;
+  text-align: left;
+  padding-left: 3%;
+}
+
+textarea::placeholder {
+  color: #b3bac5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 2%;
+}
+
+.l-b {
+  width: 35%;
+  height: 35px;
+  background-color: #fff;
+  color: #6070ff;
+  margin-top: 6%;
 }
