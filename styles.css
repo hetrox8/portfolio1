@@ -290,7 +290,7 @@ nav a {
   background: #fff;
   height: 50px;
   padding-left: 3%;
-  margin-left: 3%;
+  margin-left: 2%;
 }
 
 button {
@@ -462,13 +462,8 @@ input::placeholder {
 }
 
 form {
-  /* Center the form on the page */
-  margin: 0;
-  width: 400px;
-
-  /* Form outline */
-  padding: 1em;
-  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 fieldset {
@@ -492,10 +487,13 @@ textarea::placeholder {
   margin-top: 2%;
 }
 
-.l-b {
-  width: 35%;
-  height: 35px;
-  background-color: #fff;
-  color: #6070ff;
-  margin-top: 6%;
+.l-btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background: #fff;
+  height: 50px;
+  padding-left: 3%;
+  margin-left: 3%;
 }
