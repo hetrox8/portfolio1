@@ -300,12 +300,12 @@ button {
   margin-bottom: 40px;
 }
 
-.resume:hover {
-  background-color: #637fc4;
-}
-
 .resume:active {
   background-color: #fff;
+}
+
+.resume:hover {
+  background-color: #637fc4;
 }
 
 .lang {
