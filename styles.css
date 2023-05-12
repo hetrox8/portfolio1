@@ -590,19 +590,6 @@ body {
   }
 }
 
-body {
-  text-transform: capitalize;
-  background-color: #ffff;
-  box-sizing: border-box;
-  overflow: scroll;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-* {
-  font-family: "Poppins", sans-serif;
-}
-
 @media (min-width: 375px) {
   .nav-bar {
     display: flex;
