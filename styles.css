@@ -22,16 +22,14 @@ body {
 
 @media (min-width: 768px) {
   .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 19px;
+    padding-left: 6%;
+    float: left;
+    flex-direction: row;
   }
 
   body {
     background-color: #e5e5e5;
   }
-
 
   header {
     background-color: #fff;
@@ -56,6 +54,14 @@ body {
     display: inline-block;
   }
 
+  a {
+    text-decoration: none;
+  }
+
+  nav a {
+    padding-right: 3%;
+  }
+
   .dsk-li a {
     color: #344563;
     list-style-type: none;
@@ -67,22 +73,7 @@ body {
     gap: 450px;
   }
 
-  .nav-bar {
-    padding-left: 6%;
-    float: left;
-    flex-direction: row;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  nav a {
-    padding-right: 3%;
-  }
-
   .logo a {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -120,6 +111,14 @@ body {
   .link-item a {
     font-size: 12px;
     color: #6070ff;
+  }
+
+  .see-active a {
+    color: #fff;
+  }
+
+  .languages a {
+    width: 40%;
   }
 
   .link nav a {
@@ -166,7 +165,6 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 60px;
     padding-top: 10px;
     margin-top: 20%;
     padding-bottom: 0;
@@ -327,25 +325,22 @@ body {
     background-color: #d1d5df;
   }
 
-.see-active {
-  font-size: 18px;
-  font-weight: 400;
-  border: 2px solid #396df2;
-  color: #fff;
-  width: 40%;
-  border-radius: 10px 12px;
-  height: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 9px;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: #396df2;
-}
-.see-active a {
-  color: #fff;
- 
-}
+  .see-active {
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid #396df2;
+    color: #fff;
+    width: 40%;
+    border-radius: 10px 12px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 9px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #396df2;
+  }
+
   .resume {
     font-weight: 500;
     font-size: 17px;
@@ -448,10 +443,6 @@ body {
     list-style: none;
   }
 
-  .languages a {
-    width: 40%;
-  }
-
   .framework {
     background-color: #ffff;
     gap: 12%;
@@ -485,7 +476,6 @@ body {
     float: right;
     padding-bottom: 4%;
   }
-
 
   .contact {
     background-color: #6070ff;
@@ -540,7 +530,6 @@ body {
     margin-top: 4%;
     margin-bottom: 4%;
   }
-
 
   input::placeholder {
     font-style: normal;
