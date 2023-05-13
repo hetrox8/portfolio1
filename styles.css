@@ -82,16 +82,13 @@ body {
   }
 
   .logo {
-    margin-top: 20px;
     color: #6070ff;
     font-size: 16px;
   }
 
-  .nav-bar .logo {
-    flex-wrap: wrap;
-    flex: 1;
-    order: none;
-    margin-left: 10px;
+  #logo {
+    margin: 0;
+    font-size: 90%;
   }
 
   .dashboard {
