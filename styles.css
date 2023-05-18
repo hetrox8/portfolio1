@@ -14,11 +14,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-html {
-  font-size: 62.3%;
-  scroll-behavior: smooth;
-}
-
 .container {
   margin: auto 2.4rem;
   overflow: hidden;
@@ -28,11 +23,15 @@ header {
   background-color: #fff;
 }
 
+html {
+  font-size: 62.3%;
+  scroll-behavior: smooth;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fid;
   width: 100%;
   height: 10vh;
   padding: 3%;
@@ -118,12 +117,20 @@ a {
   padding-bottom: 1rem;
 }
 
-.connect {
+.connect1 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+}
+
+.connect {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
 }
 
 .lets-connect {
@@ -396,6 +403,14 @@ textarea::placeholder {
   cursor: pointer;
 }
 
+.logo-mobile {
+  gap: 3%;
+}
+
+.languages-inputs-mobile {
+  flex-direction: co;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     margin: auto 10%;
@@ -414,7 +429,7 @@ textarea::placeholder {
     display: none;
   }
 
-  .list-nav {
+  ul.list-nav {
     list-style: none;
     display: flex;
     gap: 3.2rem;
@@ -491,7 +506,6 @@ textarea::placeholder {
     flex-direction: column;
     align-items: flex-start;
     width: 12rem;
-    gap: 1.8rem;
   }
 
   /* ABOUT PART  */
@@ -502,7 +516,7 @@ textarea::placeholder {
     margin-bottom: 12.8rem;
     display: flex;
     flex-direction: row;
-    row-gap: 4.8rem;
+    row-gap: 15%;
   }
 
   .skill-1 {
@@ -521,6 +535,18 @@ textarea::placeholder {
   .contact-me {
     justify-content: center;
     align-items: center;
+  }
+
+  .space {
+    gap: 3%;
+  }
+
+  .connect {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
   }
 
   .contact-input,
