@@ -123,14 +123,34 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  
 }
 
+/*
+@keyframes example{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+*/
 .connect {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #091e42;
+  /*
+  animation-name: example;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  */
+}
+
+.first-image {
+  max-width: 100%;
+  height: auto;
+
 }
 
 .lets-connect {
@@ -160,9 +180,30 @@ a {
   gap: 1.2rem;
 }
 
+
+@keyframes disco {
+    0% {
+        background-color: #000; /* Pink */
+    }
+    25% {
+      /*  background-color: ;  Cyan */
+    }
+    50% {
+        background-color: #ffff00; /* Yellow */
+    }
+    75% {
+        background-color: #ff00ff; /* Pink */
+    }
+    100% {
+        background-color: #ff0000; /* Red */
+    }
+}
+
 .first-image {
   border-radius: 0.8rem;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+ 
 }
 
 .card-details {
@@ -415,13 +456,15 @@ textarea::placeholder {
   .container {
     margin: auto 10%;
   }
-
+  .card-works {
+    animation: disco 3s ease-in-out infinite ;
+}
   /* NAVBAR SECTION  */
   .navbar {
     padding: 2.3rem 6.8rem;
   }
-
-  .dashboard {
+ 
+.dashboard {
     display: none;
   }
 
