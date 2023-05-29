@@ -8,38 +8,45 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
   <title>Document</title>
-  <title>Document</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
  
-  <div class="nav-bar">
-     
+  <nav class="nav-bar">
 
     <div class="logo"> 
-         <a href="#"><img src="/images/My Logo.png" alt="logo for the website"></a> 
+         <a href="#"><img src="./images/My Logo.png" alt="logo for the website"></a> 
     </div>
-    <ul class="dsk-li">
-      <li> <a href="#">Portfolio</a> </li>
-      <li> <a href="#">about</a></li>
-     <li><a href="#">contact</a></li>
-</ul>
-       
-     </div>
+  
+        <div class="dashboard">  
+           <a href="#"><img src="./images/Union.png" alt="dashboard"></a>
+        </div>
+
+        <ul class="list-nav">
+          <li> <a href="#"> Portfolio</a>  </li>
+          <li> <a href="#">about</a></li>
+          <li> <a href="#">contact</a></li>
+
+        </ul>
+
+      
+
+      </nav>
 
  </header>
 
-  <section class="container">
-    
-
-      <h1 class="iam">I'm Suleiman Yusuf Gacheru.  Glad to see
+  <section class="container-all">
+    <div class="container1 container"> 
+  
+      <h1 class="iam">I'm Suleiman Yusuf Gacheru. Glad to see
         you! </h1>
      <p class="firstp">
-        I’m a software developer! I can help you build a product feature or website Look through some of my work and experience!
+        I’m a software developer! I can help you build a product , 
+        feature or website Look through some of my work and experience!
          If you like what you see and have a project you need coded, don’t hesitate to contact me.
 
-         <h2 class="lets-connect">let's connect</h2>
+         <h2 class="connect1">let's connect</h2>
       </p>
 
     
@@ -72,147 +79,111 @@
 
     </div>
 
-
+  </div>
   </section>
     <!-- works -->
 
     
 <section class="works">
   
-<div class="card-works">
+<div class="card-works container">
+  <img id="mobile-1" class="first-image" src="./images/Snapshoot Portfolio.off.png" alt="">
 
-       <div class="all-image">
-          <img src="./images/Snapshoot1.1.png"   alt="">
-       </div>
+  <div class="card-details">
+    <h2 class="headings">Tonics</h2>
 
-  <div class="dsk-2">
+ <ul class="first-item">
+   <li> Canopy </li>
+   <li> back end dev</li>
+   <li> 2015</li>
+ </ul>
 
-       <h2 class="headings">Tonics</h2>
-
-          <ul class="first-item">
-               <li class="one"> <a href="#">Canopy</a> </li>
-                <li class="other"> <a href="#">back end dev</a></li>
-               <li class="other"> <a href="#">2015</a></li>
-         </ul>
-
-   <p class="text-1"> 
-
-    A daily selection of privately personalized reads; no accounts or sign-ups required.
-
+  <p class="text-1">
+    A daily selection of privately <br>
+     personalized reads; no accounts or sign-ups required.
   </p>
 
-         <ul class="item-2">
-                  <li class="link-item"> <a href="#"></a> html</li>
-                  <li  class="link-item" > <a href="#">css</a></li>
-                  <li class="link-item"> <a href="#">javascript</a></li>
-          </ul>
+  <ul class="item-2">
+      <li> html</li>
+      <li>css</li>
+      <li>javascript</li>
+  </ul>
 
-         <p class="see">
-              <a href="#">See projects</a>
-         </p>
+   <button class="btn">see projects</button>
 
-  </div>
-
-  </div>
-
-  <!-- first card ends-->
-
-   <div class="card-works-rev">
-    <div class="all-image">
-      <img src="./images/Snapshoot2.png" alt="">
     </div>
-    
-      <div class="dsk-2"> 
-          <p class="headings">
-          Multi-Post
-          Stories
-      </p>
-
-      <ul class="first-item">
-
-            <li class="one"> <a href="#">Canopy</a> </li>
-            <li class="other"> <a href="#">back end dev</a></li>
-            <li class="other"> <a href="#">2015</a></li>
-
-            </ul>
-
-     <p class="text-1">
-      Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
-</p>
- 
-<ul class="item-2">
-  <li class="link-item"> <a href="#"></a> html</li>
-  <li  class="link-item" > <a href="#">css</a></li>
-  <li class="link-item"> <a href="#">javascript</a></li>
-
-</ul>
-
-  <p class="see">
-    <a href="#">See projects</a>
-  </p>
-
-</div>
-
-</div>
-
-<!--  second card ends -->
-<div class="card-works">
-  <div class="all-image">
-    <img src="./images/Snapshoot 3.png" alt="">
   </div>
-  
-    <div class="dsk-2"> 
-        <p class="headings">
-          Facebook 360
-    </p>
 
-    <ul class="first-item">
+<!--first  card ends-->
 
-          <li class="one"> <a href="#">Facebook 360</a> </li>
-          <li class="other"> <a href="#">back end dev</a></li>
-          <li class="other"> <a href="#">2015</a></li>
+<div class="card-works container">
+  <img  class="first-image" src="./images/now.png" alt="">
 
-          </ul>
+ <div class="card-details"> 
+ <h3 class="headings"> Multi-Post <br> Stories</h3>
 
-   <p class="text-1">
-    Exploring the future of media in Facebook's first Virtual Reality <br>
-    app; a place to discover and enjoy 360 photos and videos on Gear VR.
+ <ul class="first-item">
+  <li>Canopy</li>
+  <li>back end dev</li>
+  <li>2015</li>
+</ul>
+
+<p class="text-1">
+  A daily selection of privately <br>
+   personalized reads; no accounts or sign-ups required.
 </p>
-
+ 
 <ul class="item-2">
-
-<li class="link-item"> <a href="#"></a> html</li>
-<li  class="link-item" > <a href="#">css</a></li>
-<li class="link-item"> <a href="#">javascript</a></li>
+  <li>html</li>
+  <li>css</li>
+  <li>javascript</li>
 
 </ul>
 
-<p class="see-active">
-  <a href="#">See projects</a>
-</p>
+  <button class="btn">see projects</button>   
 
 </div>
 
 </div>
 
+<!-- second card ends-->
 
-
-<!-- third  card ends-->
-
-<div class="rev-2">
-
-<div class="all-image">
-  <img src="./images/Snapshoot 4.png" alt="">
-</div>
-
-<div class="dsk-2">  
+<div class="card-works container">
+<img  class="first-image" src="./images/now4.png" alt="">
+  <div class="card-details"> 
+    <h4 class="headings">facebook 360</h4>  
+ <ul class="first-item">
+   <li > Canopy</li>
+   <li>back end dev</li>
+   <li> 2015</li>
+ </ul>
  
-<h5 class="headings">Tonics</h5>
+ <p class="text-1">A daily selection of privately  <br>
+ personalized reads; no accounts or sign-ups required.</p>
+ 
+ <ul class="item-2">
+  <li> html</li>
+  <li>css</li>
+  <li>javascript</li>
+
+</ul>
+
+<button class="btn">see projects</button>
+</div>
+</div>
+
+<!-- third card ends-->
+
+<div class="card-works container">
+
+  <img  class="first-image" src="./images/now2.png" alt="">
   
+<div class="card-details"> 
+<h5 class="connect">uber navigation</h5>
 <ul class="first-item">
-  <li class="one"> <a href="#">Canopy</a> </li>
-  <li class="other"> <a href="#">back end dev </a></li>
-  <li class="other"> <a href="#">2015</a></li>
+  <li>Canopy </li>
+  <li>back end dev </li>
+  <li>2015</li>
 </ul>
 
 
@@ -227,92 +198,144 @@
 
 </ul>
 
-<p class="see">
-  <a href="#">See projects</a>
-</p>
-</div>
-</div >
+<button class="btn">see projects</button>
 
+</div >
+</div>
 </section>
 <!-- works end here-->
 
-<section class="about-me">
-        <div class="works1">
-            <div class="seperate-1">
-               <h2 class="abt-self"> About myself</h2>
-                  <p class="abt-p">
-                    Hello I’m a software developer! I can help you build a  product , 
-                    feature or website Look through some of my  work and experience! If you like what you see and have a 
-                     project you need coded, 
-                    don’t hesitate to contact me.
-                </p>
+<section class="about-me container">
+ <div class="works1">
+     <div class="end-1"> 
+    <h6 class="headings"> About myself</h6>
 
-                  <p class="lets-connect">let's connect</p>
-                   <div class="link">
-                     <ul class="media-icons">
-                         <li>
-                            <a href="#"> <img src="./images/Github.png" alt="twitter">  </a>
-                          </li>
-                          <li>
-                             <a href="#">  <img src="./images/Linkedin icon.png" alt="linkedin"></a>
-                            </li>
-          <li>
-             <a href="#">
-                  <img src="./images/Mail.png" alt="mail">
-             </a>
-          </li>
+   <p class="text-1">
+    Hello I’m a software developer! I can help you build <br> a product , feature or website. 
+    Look through some of my  work and experience! If you like what you see and have  a project you need coded, don’t hesitate to contact me.
+   </p>
+
+   <p class="about-p">let's connect</p>
+    <div class="link">
+       <ul class="media-icons">
+        <li>
+           <a href="#">
+             <img src="./images/Github.png" alt="twitter"> </a>
+           </li>
 
         <li>
           <a href="#">
-          <img src="./images/Twitter.png" alt="github">
-          </a>
-      </li>
+          <img src="./images/Linkedin icon.png" alt="linkedin"> </a>
+       </li>
+
+       <li>
+        <a href="#">
+          <img src="./images/Mail.png" alt="mail">  </a>
+       </li>
+
       <li>
-       
-          <img src="./images/Vector.png" alt="vector">
+        <a href="#">
+          <img src="./images/Twitter.png" alt="github"></a>
+      </li>
+
+       <li> 
+        <a href=""> <img src="./images/Vector.png" alt="vector">
+        </a> 
+       </li>
 
   </div>
    
-    <button class="resume">
-      Get my Resume
-    </button>
-
+    <button class="btn">Get my Resume</button>
   </div>
+ <!--languages  start-->
 
 
-    <div class="seperate-2">
-    <h3 class="lang">languages <a href="#"> <img src="./images/down-arrow.svg" class="icon1" alt=""></a> </h3> 
+<div class="end-2"> 
+    <ul class="skill-1">
+       <li class="skill-div">
+           <h3 class="skill-heading">Languages</h3>
+      <svg
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"fill="currentColor" class="down-arrow">
+       <path
+        fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+      </svg>
+    </li>
+    
+      <div class="space">  
+      <li>
+          <ul class="languages-inputs">
+            <li>
+                <span class="lang-logo">
+                  <img  class="frontend javascript" src="./images/Frame 9 (1).png" alt="JavaScript Logo" />
+                </span>
+                     <p>JavaScript</p>
+                </li>
+           <li>
+               <span>
+                 <img class="frontend" src="images/Frame 10 (1).png" alt="HTML Logo"  />
+             </span>
 
-     <div class="langs">
-       
-      <ul class="languages">
-        <li> <a href="#"> <img src="./images/Frame 9 (1).png" alt=""></a> </li>
-        <li> <a href="#"><img src="./images/Frame 10 (1).png" alt=""></a> </li>
-        <li> <a href="#"><img src="./images/Frame 11 (1).png" alt=""></a></li>
-      </ul>
+                 <p>HTML</p>
+        </li>
+            <li>
+        <span>
+          <img class="frontend" src="./images/Frame 11 (1).png" b  alt="CSS Logo" />
+        </span>
+           <p>CSS</p>
+      </li>
+    </ul>
+  </li>
 
-    </div>
+</div>
 
-      <div class="framework">
-      <p class="frameworks"> Frameworks <img src="./images/right-arrow.svg"alt="" class="icon2"> </p>
-      <p class="skills">skills <img src="./images/right-arrow.svg" alt="" class="icon2"> </p>
-      </div>
-    </div>
-     </div>
- 
-       <!-- contact starts -->
+  <li class="skill-div border">
+    <h3 class="skill-heading">Frameworks</h3>
+    <span class="sign"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="down-sign"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </span>
+  </li>
+  <li class="skill-div border">
+    <h3 class="skill-heading">Skills</h3>
+    <span class="sign"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="down-arrow"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </span>
+  </li>
+</ul>
+ </div>
+</section>
 
-    <div class="contact">
-      <div class="contact-me">
-        <h6 class="h-contact"> contact me</h6>
+   <section class="contact">
+      <div class="contact-me container">
+          <h6 class="h-contact"> contact me</h6>
+            <div class="contact-in"> 
         <p class="para">
-       If you have an application you are interested in <br>
-        developing, a feature that you need built or a project <br>
-        that needs coding. 
+       If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
 I’d love to help with it!
         </p>
-
-        <form action="https://formspree.io/f/mvonypvv" method="post">
+    </div>
+         <form action="https://formspree.io/f/mvonypvv" method="post">
           <fieldset> 
           <input id="first-name" name="user_name" type="text" required placeholder="lores ipsum" maxlength="30" />
          <input id="email"  name="" type="email" required placeholder="loresipsum@gmail.com" />
@@ -327,8 +350,6 @@ I’d love to help with it!
         </form>
       </div>
 
-    </div>
-
-  </section>
+    </section>
 </body>
 </html>
