@@ -120,5 +120,5 @@ h1.iam {
   list-style-type: none;
   display: flex;
   gap: 2rem;
-  align-items
+  align-items: center;
 }
