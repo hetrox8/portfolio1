@@ -1,8 +1,9 @@
 body {
   text-transform: capitalize;
-  background-color: #ffff;
+  background-color: #e5e5e5;
   box-sizing: border-box;
   overflow: scroll;
+  
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -12,11 +13,13 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+
 }
 
 .container {
   margin: auto 2.4rem;
-  overflow: hidden;
+  overflow: auto;
+  
 }
 
 header {
@@ -62,50 +65,39 @@ a {
   text-decoration: none;
 }
 
+
 .container-all {
   display: flex;
   flex-direction: column;
-  background-image: url('./images/header.now.png');
+   background-image: url('./images/header-shapes\ mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100% 9rem;
-  padding-bottom: 1rem;
-  margin-bottom: 12%;
   background-color: #ffff;
-  border-bottom-left-radius: 4pc;
-}
+  border-bottom-left-radius: 45pt;
+  padding-top: 10%;
 
-.works {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 12.7rem;
-  background-color: #f7f7f7;
-  padding: 12.8rem 0 2.8rem 0;
-  /*padding-bottom: 12.8rem;*/
-  margin-bottom: 12.8rem;
 }
 
 .container1 {
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
-  margin-bottom: 0%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100%;
-  background-image: url('./images/header-shapes\ mobile.png');
+  padding-bottom: 20%;
+   
 }
 
 .iam {
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 52px;
   color: #172b4d;
   text-transform: capitalize;
-  letter-spacing: 0.37px;
-  margin-top: 0;
-  padding: 0;
+}
+
+h1.iam{
+  padding-top: 23%;
 }
 
 .iam span {
@@ -114,8 +106,8 @@ a {
 
 .firstp {
   color: #344563;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 1rem;
@@ -127,23 +119,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-}
-
-.connect {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091e42;
-}
-
-.lets-connect {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091e42;
-  margin-bottom: 1.2rem;
+  margin-bottom: 4%;
 }
 
 .media-icons {
