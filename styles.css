@@ -2,8 +2,7 @@ body {
   text-transform: capitalize;
   background-color: #e5e5e5;
   box-sizing: border-box;
-  overflow: scroll;
-  
+  overflow: scroll; 
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -18,8 +17,7 @@ body {
 
 .container {
   margin: auto 2.4rem;
-  overflow: auto;
-  
+  overflow: auto; 
 }
 
 header {
@@ -65,7 +63,6 @@ a {
   text-decoration: none;
 }
 
-
 .container-all {
   display: flex;
   flex-direction: column;
@@ -75,7 +72,6 @@ a {
   background-color: #ffff;
   border-bottom-left-radius: 45pt;
   padding-top: 10%;
-
 }
 
 .container1 {
@@ -83,8 +79,7 @@ a {
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 20%;
-   
+  padding-bottom: 20%; 
 }
 
 .iam {
