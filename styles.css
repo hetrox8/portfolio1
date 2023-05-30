@@ -5,7 +5,7 @@ body {
   overflow: scroll;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   margin: 0;
@@ -90,6 +90,7 @@ a {
   color: #172b4d;
   text-transform: capitalize;
 }
+
 h1.iam {
   padding-top: 23%;
 }
