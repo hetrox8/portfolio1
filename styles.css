@@ -3,7 +3,7 @@ body {
   background-color: #e5e5e5;
   box-sizing: border-box;
   overflow: scroll; 
-}
+ }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
@@ -12,7 +12,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-
 }
 
 .container {
