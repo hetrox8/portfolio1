@@ -446,7 +446,14 @@ textarea::placeholder {
   }
 
   .end-1 {
-    width: 60%;
+    width: 50%;
+    padding: 0;
+    margin-left: 2%;
+  }
+
+  .end-2 {
+    padding: 0;
+    margin-left:-2%;
   }
 
   .text-1 {
@@ -517,6 +524,15 @@ textarea::placeholder {
     line-height: 60px;
   }
 
+  .skill-heading {
+    color: #344563;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+margin-top: 3%;
+  }
+
   /* PROJECT PART */
 
   .card-works {
@@ -544,6 +560,10 @@ textarea::placeholder {
     flex-direction: row;
   }
 
+  ul.language-input {
+    padding: 0;
+  }
+
   .languages-inputs li {
     list-style: none;
     flex-direction: column;
@@ -551,6 +571,10 @@ textarea::placeholder {
     width: 12rem;
   }
 
+  .lang-logo {
+    padding-left: -2%;
+    padding-right: 20%;
+  }
   /* ABOUT PART  */
 
   .works1 {
@@ -584,15 +608,7 @@ textarea::placeholder {
   .space {
     gap: 3%;
   }
-
-  .connect {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-  }
-
+ 
   .contact-input,
   .contact-message {
     width: 44.7rem;
