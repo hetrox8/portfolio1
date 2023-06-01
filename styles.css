@@ -1,6 +1,6 @@
 body {
   text-transform: capitalize;
-  background-color: #e5e5e5;
+  background-color: #ffff;
   box-sizing: border-box;
   overflow: scroll;
 }
@@ -12,7 +12,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-
 }
 
 .container {
@@ -63,13 +62,15 @@ a {
   text-decoration: none;
 }
 
-
 .container-all {
   display: flex;
   flex-direction: column;
-   background-image: url('./images/header-shapes\ mobile.png');
+  background-image: url('./images/header.now.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 100% 9rem;
+  padding-bottom: 1rem;
+  margin-bottom: 12%;
   background-color: #ffff;
   border-bottom-left-radius: 4pc;
 }
@@ -80,13 +81,16 @@ a {
   gap: 12.7rem;
   background-color: #f7f7f7;
   padding: 12.8rem 0 2.8rem 0;
-  /*padding-bottom: 12.8rem;*/
+
+  /* padding-bottom: 12.8rem; */
   margin-bottom: 12.8rem;
 }
 
 .container1 {
   display: flex;
   flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 0%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100%;
@@ -96,14 +100,13 @@ a {
 .iam {
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 48px;
+  line-height: 60px;
   color: #172b4d;
   text-transform: capitalize;
-}
-
-h1.iam{
-  padding-top: 23%;
+  letter-spacing: 0.37px;
+  margin-top: 0;
+  padding: 0;
 }
 
 .iam span {
@@ -112,8 +115,8 @@ h1.iam{
 
 .firstp {
   color: #344563;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 1rem;
@@ -125,7 +128,23 @@ h1.iam{
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-bottom: 4%;
+}
+
+.connect {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.lets-connect {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+  margin-bottom: 1.2rem;
 }
 
 .media-icons {
@@ -232,8 +251,7 @@ h1.iam{
 .about-me {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 6%
-
+  gap: 6%;
 }
 
 .skillset {
@@ -400,13 +418,13 @@ textarea::placeholder {
 }
 
 .about-p {
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #7F8CFF;
-padding-top: 4%;
-padding-bottom: 4%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 .languages-inputs-mobile {
@@ -426,29 +444,35 @@ padding-bottom: 4%;
   .dashboard {
     display: none;
   }
+
   .end-1 {
-    width: 60%;
+    width: 50%;
+    padding: 0;
+    margin-left: 2%;
   }
 
+  .end-2 {
+    padding: 0;
+    margin-left:-2%;
+  }
 
-    .text-1 {
-      color: #344563;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
-      padding-right: 10%;
-      padding-bottom: 3%;
-    
+  .text-1 {
+    color: #344563;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 10%;
+    padding-bottom: 3%;
   }
 
   .about-p {
     font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #7F8CFF;
-padding-bottom: 2%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    padding-bottom: 2%;
   }
 
   .nav-btn {
@@ -500,6 +524,15 @@ padding-bottom: 2%;
     line-height: 60px;
   }
 
+  .skill-heading {
+    color: #344563;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+margin-top: 3%;
+  }
+
   /* PROJECT PART */
 
   .card-works {
@@ -527,6 +560,10 @@ padding-bottom: 2%;
     flex-direction: row;
   }
 
+  ul.language-input {
+    padding: 0;
+  }
+
   .languages-inputs li {
     list-style: none;
     flex-direction: column;
@@ -534,6 +571,10 @@ padding-bottom: 2%;
     width: 12rem;
   }
 
+  .lang-logo {
+    padding-left: -2%;
+    padding-right: 20%;
+  }
   /* ABOUT PART  */
 
   .works1 {
@@ -544,7 +585,7 @@ padding-bottom: 2%;
     flex-direction: row;
     row-gap: 14%;
   }
-  
+
   .skill-1 {
     margin-top: -2rem;
     padding-left: 16%;
@@ -567,15 +608,7 @@ padding-bottom: 2%;
   .space {
     gap: 3%;
   }
-
-  .connect {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-  }
-
+ 
   .contact-input,
   .contact-message {
     width: 44.7rem;
