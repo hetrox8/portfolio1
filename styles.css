@@ -517,6 +517,21 @@ textarea::placeholder {
     border-bottom: 0.3rem solid #6070ff;
   }
 
+  .connect-1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+  }
+  
+ .about-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+ }
   /* HEADLINE PART */
   .container-all {
     background-image: url('./images/header-shapes\ mobile.png');
