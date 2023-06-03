@@ -127,6 +127,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  padding-bottom: 3%;
   color: #7f8cff;
 }
 
@@ -140,10 +141,11 @@ a {
 
 .lets-connect {
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091e42;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+
   margin-bottom: 1.2rem;
 }
 
@@ -190,6 +192,15 @@ a {
   gap: 3.2rem;
 }
 
+.about-p {
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+}
+
+
 .text-1 {
   color: #344563;
   font-style: normal;
@@ -225,6 +236,7 @@ a {
 
 .end-1 {
   width: 90%;
+  
 }
 
 .btn {
@@ -248,10 +260,18 @@ a {
   background-color: #2230d2;
 }
 
-.about-me {
+.about {
   display: grid;
   grid-template-columns: 1fr;
   gap: 6%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+
+
+}
+
+.works1 {
+  border-top-left-radius: 45pt;
 }
 
 .skillset {
@@ -300,6 +320,20 @@ a {
   color: #253858;
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.lang {
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+padding-top: 4%;
+padding-bottom: 10%;
+}
+
+.langs ul {
+  list-style: none;
 }
 
 .contact {
@@ -417,12 +451,20 @@ textarea::placeholder {
   gap: 3%;
 }
 
-.about-p {
+.abt-self {
   font-style: normal;
-  font-weight: 500;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #172B4D;
+}
+
+.abt-p {
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #344563;
   padding-top: 4%;
   padding-bottom: 4%;
 }
@@ -445,16 +487,6 @@ textarea::placeholder {
     display: none;
   }
 
-  .end-1 {
-    width: 50%;
-    padding: 0;
-    margin-left: 2%;
-  }
-
-  .end-2 {
-    padding: 0;
-    margin-left:-2%;
-  }
 
   .text-1 {
     color: #344563;
@@ -462,18 +494,25 @@ textarea::placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    padding-right: 10%;
-    padding-bottom: 3%;
+
   }
 
-  .about-p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-    padding-bottom: 2%;
-  }
+.about-me {
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  margin: 0;
+  width: 90%;
+}
+
+.about-p {
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+}
 
   .nav-btn {
     display: none;
@@ -502,6 +541,62 @@ textarea::placeholder {
     border-bottom: 0.3rem solid #6070ff;
   }
 
+  
+.about-container {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #fff;
+  border-top-right-radius: 50px;
+  display: flex;
+}
+
+.about-r {
+  width: 45%;
+  margin: 3%;
+  padding: 10px;
+}
+
+.about-l {
+  width: 45%;
+  margin: 3%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lang {
+  display: flex;
+}
+
+.lang-bord {
+  background-color: #f7f7f9;
+  margin: 1%;
+  padding: 10px;
+  width: 100px;
+  color: #172b4d;
+}
+
+.about-l h1 {
+  margin: 10px;
+  font-size: 12px;
+}
+
+.about-text {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.about-r p {
+  margin: 10px;
+  font-size: 16px;
+  color: #344563;
+}
+
+.about-connect {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px;
+}
   /* HEADLINE PART */
   .container-all {
     background-image: url('./images/header-shapes\ mobile.png');
@@ -524,15 +619,6 @@ textarea::placeholder {
     line-height: 60px;
   }
 
-  .skill-heading {
-    color: #344563;
-    font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-margin-top: 3%;
-  }
-
   /* PROJECT PART */
 
   .card-works {
@@ -549,6 +635,12 @@ margin-top: 3%;
 
   .card-works:nth-child(even) > .first-img {
     order: 2;
+   
+  }
+
+  .end-1 {
+    margin: 0;
+    padding-left: 5%;
   }
 
   .btn {
@@ -560,21 +652,13 @@ margin-top: 3%;
     flex-direction: row;
   }
 
-  ul.language-input {
-    padding: 0;
-  }
-
   .languages-inputs li {
-    list-style: none;
     flex-direction: column;
     align-items: flex-start;
     width: 12rem;
+    gap: 1.8rem
   }
 
-  .lang-logo {
-    padding-left: -2%;
-    padding-right: 20%;
-  }
   /* ABOUT PART  */
 
   .works1 {
@@ -608,7 +692,15 @@ margin-top: 3%;
   .space {
     gap: 3%;
   }
- 
+
+  .connect {
+   font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #091E42
+  }
+
   .contact-input,
   .contact-message {
     width: 44.7rem;
