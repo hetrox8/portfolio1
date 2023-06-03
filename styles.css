@@ -294,13 +294,13 @@ a {
   flex-direction: column;
   gap: 1.2rem;
 }
-
+/*
 .frontend {
   width: 4.8rem;
   height: 4.8rem;
   list-style: none;
 }
-
+*/
 .j {
   border-radius: 5rem;
 }
@@ -321,8 +321,21 @@ a {
   padding-bottom: 10%;
 }
 
+.about-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+ }
+
 .langs ul {
   list-style: none;
+}
+.right {
+  display: inline-block;
+  padding-left: 4%;
+
 }
 
 .contact {
@@ -532,6 +545,7 @@ textarea::placeholder {
   line-height: 24px;
   color: #7f8cff;
  }
+
   /* HEADLINE PART */
   .container-all {
     background-image: url('./images/header-shapes\ mobile.png');
@@ -554,6 +568,8 @@ textarea::placeholder {
     line-height: 60px;
   }
 
+  
+  
   /* PROJECT PART */
 
   .card-works {
@@ -600,7 +616,6 @@ textarea::placeholder {
 
   .skill-1 {
     margin-top: -2rem;
-    padding-left: 16%;
   }
 
   /* CONTACT PART */
