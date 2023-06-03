@@ -542,7 +542,7 @@ textarea::placeholder {
     background-position: 100% 100%;
     width: 100%;
     border-radius: 0;
-    padding: 200px 130px;
+    padding-top: 23%;
     gap: 2.2rem;
   }
 
