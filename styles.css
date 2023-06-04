@@ -288,6 +288,7 @@ a {
   width: 2.4rem;
   height: 2.4rem;
   margin-right: 1.8rem;
+
 }
 
 .special {
@@ -297,20 +298,19 @@ a {
 }
 
 .languages-inputs {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
-/*
-.frontend {
-  width: 4.8rem;
-  height: 4.8rem;
-  list-style: none;
-}
+
+
 */
-.j {
+.javascript {
   border-radius: 5rem;
+  display: none;
 }
+
 
 .languages-elements li p {
   color: #253858;
@@ -495,10 +495,15 @@ textarea::placeholder {
   flex-direction: co;
 }
 
+
 @media screen and (min-width: 768px) {
   .container {
     margin: auto 10%;
   }
+
+ .space-desk {
+  display: none;
+ }
 
   /* NAVBAR SECTION  */
   .navbar {
@@ -564,6 +569,7 @@ textarea::placeholder {
     color: #091E42;
   }
   
+ 
  .about-p {
   font-style: normal;
   font-weight: 500;
@@ -584,6 +590,8 @@ textarea::placeholder {
     border-radius: 0;
     padding-top: 23%;
     gap: 2.2rem;
+    padding-bottom: 12%;
+    border-bottom-left-radius: 75pt;
   }
 
   .iam {
