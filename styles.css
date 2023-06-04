@@ -1,6 +1,6 @@
 body {
   text-transform: capitalize;
-  background-color: #ffff;
+  background-color: #e5e5e5;
   box-sizing: border-box;
   overflow: scroll;
 }
@@ -79,7 +79,7 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   gap: 12.7rem;
-  background-color: #f7f7f7;
+  background-color: inherit;
   padding: 12.8rem 0 2.8rem 0;
 
   /* padding-bottom: 12.8rem; */
@@ -259,6 +259,7 @@ a {
 
 .works1 {
   border-top-left-radius: 45pt;
+  padding-left: 5%;
 }
 
 .skillset {
@@ -289,6 +290,12 @@ a {
   margin-right: 1.8rem;
 }
 
+.special {
+  padding-top: 21%;
+  width: inherit;
+  border-top-right-radius: 55pt;
+}
+
 .languages-inputs {
   display: flex;
   flex-direction: column;
@@ -309,6 +316,14 @@ a {
   color: #253858;
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.connect-1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091E42;
 }
 
 .lang {
@@ -461,6 +476,11 @@ textarea::placeholder {
   color: #172b4d;
 }
 
+.about-me {
+  background: #ffff;
+
+}
+
 .abt-p {
   font-style: normal;
   font-weight: 400;
@@ -490,7 +510,7 @@ textarea::placeholder {
   }
 
   .end-1 {
-    width: 60%;
+    width: 100%;
   }
 
   .text-1 {
@@ -523,6 +543,12 @@ textarea::placeholder {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .special {
+    padding-top: 21%;
+    width: inherit;
+    border-top-right-radius: 55pt;
   }
 
   .list-nav a:hover,
@@ -568,7 +594,10 @@ textarea::placeholder {
     line-height: 60px;
   }
 
-  
+  .end-2 {
+   
+    width: 100%;
+  }
   
   /* PROJECT PART */
 
@@ -606,9 +635,8 @@ textarea::placeholder {
   /* ABOUT PART  */
 
   .works1 {
-    padding: 0;
+    padding: 5%;
     margin: 0;
-    margin-bottom: 12.8rem;
     display: flex;
     flex-direction: row;
     row-gap: 14%;
