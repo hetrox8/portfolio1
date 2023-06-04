@@ -14,6 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+
 .container {
   margin: auto 2.4rem;
   overflow: hidden;
@@ -495,12 +496,27 @@ textarea::placeholder {
   flex-direction: co;
 }
 
+ .frontend {
+  display: none;
+}
+
+
+
 
 @media screen and (min-width: 768px) {
   .container {
     margin: auto 10%;
   }
 
+  .pp-1{
+    display: none;
+  }
+  
+  .frontend {
+    display: flex;
+    flex-direction: column;
+  }
+ 
  .space-desk {
   display: none;
  }
