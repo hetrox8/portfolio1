@@ -14,7 +14,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 .container {
   margin: auto 2.4rem;
   overflow: hidden;
@@ -35,7 +34,7 @@ html {
   align-items: center;
   width: 100%;
   height: 10vh;
-  padding: 3%;
+  padding: 5%;
   top: 0;
 }
 
@@ -289,7 +288,6 @@ a {
   width: 2.4rem;
   height: 2.4rem;
   margin-right: 1.8rem;
-
 }
 
 .special {
@@ -305,14 +303,6 @@ a {
   gap: 1.2rem;
 }
 
-
-*/
-.javascript {
-  border-radius: 5rem;
-  display: none;
-}
-
-
 .languages-elements li p {
   color: #253858;
   font-size: 1.5rem;
@@ -324,7 +314,7 @@ a {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .lang {
@@ -343,15 +333,15 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
- }
+}
 
 .langs ul {
   list-style: none;
 }
+
 .right {
   display: inline-block;
   padding-left: 4%;
-
 }
 
 .contact {
@@ -479,7 +469,6 @@ textarea::placeholder {
 
 .about-me {
   background: #ffff;
-
 }
 
 .abt-p {
@@ -496,30 +485,36 @@ textarea::placeholder {
   flex-direction: co;
 }
 
- .frontend {
+.frontend {
   display: none;
 }
 
-
-
+.sep1 {
+  margin-bottom: 12%;
+}
 
 @media screen and (min-width: 768px) {
   .container {
     margin: auto 10%;
   }
 
-  .pp-1{
+  .sep {
+    color: #DFE1E6;
+
+  }
+
+  .pp-1 {
     display: none;
   }
-  
+
   .frontend {
     display: flex;
     flex-direction: column;
   }
- 
- .space-desk {
-  display: none;
- }
+
+  .space-desk {
+    display: none;
+  }
 
   /* NAVBAR SECTION  */
   .navbar {
@@ -582,17 +577,16 @@ textarea::placeholder {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
-  
- 
- .about-p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
- }
+
+  .about-p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
 
   /* HEADLINE PART */
   .container-all {
@@ -619,10 +613,9 @@ textarea::placeholder {
   }
 
   .end-2 {
-   
     width: 100%;
   }
-  
+
   /* PROJECT PART */
 
   .card-works {
