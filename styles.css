@@ -12,6 +12,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  list-style-type: none;
 }
 
 .container {
@@ -44,6 +45,7 @@ html {
 
 .link {
   margin-bottom: 3.4rem;
+  padding: 5%;
 }
 
 a {
@@ -279,8 +281,8 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #344563;
-  padding-bottom: 12%;
+  color: #000;
+  padding-bottom: 5%;
 }
 
 .down-arrow {
@@ -490,7 +492,21 @@ textarea::placeholder {
 }
 
 .sep1 {
+  margin-bottom: 0;
+  width: 95%;
+  color: #DFE1E6;
+}
+
+.sep2 {
   margin-bottom: 12%;
+  width: 95%;
+  color: #DFE1E6;
+  padding-bottom: 35%;
+}
+
+.r-a {
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 @media screen and (min-width: 768px) {
