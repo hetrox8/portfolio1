@@ -203,10 +203,21 @@ a {
 }
 
 .item-2 {
-  display: flex;
+  display: block;
   gap: 0.8rem;
   margin-bottom: 1rem;
 }
+
+.item-01{
+  float: left;
+  padding:5%
+}
+
+.item-02{
+float: right;
+padding-right: 5%;
+}
+
 
 .item-2 li {
   background: #ebebff;
