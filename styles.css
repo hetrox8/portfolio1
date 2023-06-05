@@ -203,9 +203,10 @@ a {
 }
 
 .item-2 {
-  display: flex;
-  gap: 0.8rem;
-  margin-bottom: 1rem;
+  float: left;
+}
+.item-01{
+  float: left;
 }
 
 .item-2 li {
