@@ -494,13 +494,13 @@ textarea::placeholder {
 .sep1 {
   margin-bottom: 0;
   width: 95%;
-  color: #DFE1E6;
+  color: #dfe1e6;
 }
 
 .sep2 {
   margin-bottom: 12%;
   width: 95%;
-  color: #DFE1E6;
+  color: #dfe1e6;
   padding-bottom: 35%;
 }
 
@@ -515,8 +515,7 @@ textarea::placeholder {
   }
 
   .sep {
-    color: #DFE1E6;
-
+    color: #dfe1e6;
   }
 
   .pp-1 {
