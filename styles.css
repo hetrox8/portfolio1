@@ -204,6 +204,7 @@ a {
 
 .item-2 {
   display: flex;
+  float: left;
   gap: 0.8rem;
   margin-bottom: 1rem;
 }
