@@ -1,125 +1,346 @@
-body {
-  text-transform: capitalize;
-  background-color: #e5e5e5;
-  box-sizing: border-box;
-  overflow: scroll;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+ 
+  <nav class="nav-bar">
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    <div class="logo"> 
+         <a href="#"><img src="./images/My Logo.png" alt="logo for the website"></a> 
+    </div>
+  
+        <div class="dashboard">  
+           <a href="#"><img src="./images/Union.png" alt="dashboard"></a>
+        </div>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+        <ul class="list-nav">
+          <li> <a href="#"> Portfolio</a>  </li>
+          <li> <a href="#">about</a></li>
+          <li> <a href="#">contact</a></li>
 
-.container {
-  margin: auto 2.4rem;
-  overflow: auto;
-}
+        </ul>
 
-header {
-  background-color: #fff;
-}
+      
 
-html {
-  font-size: 62.3%;
-  scroll-behavior: smooth;
-}
+      </nav>
 
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 10vh;
-  padding: 3%;
-  top: 0;
-}
+ </header>
 
-.list-nav {
-  display: none;
-}
+  <section class="container-all">
+    <div class="container1 container"> 
+  
+      <h1 class="iam">I'm Suleiman Yusuf Gacheru. <br> Glad to see
+        you! </h1>
+     <p class="firstp">
+        I’m a software developer! I can help you build a product , 
+        feature or website Look through some of my work and experience!
+         If you like what you see and have a project you need coded, don’t hesitate to contact me.
 
-.link {
-  margin-bottom: 3.4rem;
-}
+         <h2 class="connect1">let's connect</h2>
+      </p>
 
-a {
-  text-decoration: none;
-}
+    
 
-.logo a {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
+    <div class="link">
+      <ul class="media-icons">
+        <li>
+          <a href="#">
+            <img src="./images/Twitter.png" alt="twitter">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Linkedin icon.png" alt="linkedin">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Vector.png" alt="mail">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Github.png" alt="github">
+          </a>
+        </li>
+        <li>
+         
+            <img src="./images/Mail.png" alt="vector">
 
-.logo {
-  color: #6070ff;
-  font-size: 1.8rem;
-  font-weight: 700;
-  text-decoration: none;
-}
+    </div>
 
-.container-all {
-  display: flex;
-  flex-direction: column;
-  background-image: url('./images/header-shapes\ mobile.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #ffff;
-  border-bottom-left-radius: 45pt;
-  padding-top: 0%;
-}
+  </div>
+  </section>
+    <!-- works -->
 
-.container1 {
-  display: flex;
-  flex-direction: column;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 20%;
-}
+    
+<section class="works">
+  
+<div class="card-works container">
+  <img id="mobile-1" class="first-image" src="./images/Snapshoot Portfolio.off.png" alt="">
 
-.iam {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  margin-top: 5%;
-  color: #172b4d;
-  text-transform: capitalize;
-}
+  <div class="card-details">
+    <h2 class="headings">Tonics</h2>
 
-h1.iam {
-  padding-top: 23%;
-}
+ <ul class="first-item">
+   <li> Canopy </li>
+   <li> back end dev</li>
+   <li> 2015</li>
+ </ul>
 
-.iam span {
-  display: none;
-}
+  <p class="text-1">
+    A daily selection of privately <br>
+     personalized reads; no accounts or sign-ups required.
+  </p>
 
-.firstp {
-  color: #344563;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  padding-bottom: 1rem;
-}
+  <ul class="item-2">
+      <li> html</li>
+      <li>css</li>
+      <li>javascript</li>
+  </ul>
 
-.connect1 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-  margin-bottom: 4%;
-}
+   <button class="btn">see projects</button>
 
-.media-icons {
-  list-style-type: none;
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
+    </div>
+  </div>
+
+<!--first  card ends-->
+
+<div class="card-works container">
+  <img  class="first-image" src="./images/now.png" alt="">
+
+ <div class="card-details"> 
+ <h3 class="headings"> Multi-Post <br> Stories</h3>
+
+ <ul class="first-item">
+  <li>Canopy</li>
+  <li>back end dev</li>
+  <li>2015</li>
+</ul>
+
+<p class="text-1">
+  A daily selection of privately <br>
+   personalized reads; no accounts or sign-ups required.
+</p>
+ 
+<ul class="item-2">
+  <li>html</li>
+  <li>css</li>
+  <li>javascript</li>
+
+</ul>
+
+  <button class="btn">see projects</button>   
+
+</div>
+
+</div>
+
+<!-- second card ends-->
+
+<div class="card-works container">
+<img  class="first-image" src="./images/now4.png" alt="">
+  <div class="card-details"> 
+    <h4 class="headings">facebook 360</h4>  
+ <ul class="first-item">
+   <li > Canopy</li>
+   <li>back end dev</li>
+   <li> 2015</li>
+ </ul>
+ 
+ <p class="text-1">A daily selection of privately  <br>
+ personalized reads; no accounts or sign-ups required.</p>
+ 
+ <ul class="item-2">
+  <li> html</li>
+  <li>css</li>
+  <li>javascript</li>
+
+</ul>
+
+<button class="btn">see projects</button>
+</div>
+</div>
+
+<!-- third card ends-->
+
+<div class="card-works container">
+
+  <img  class="first-image" src="./images/now2.png" alt="">
+  
+<div class="card-details"> 
+<h5 class="connect-1">uber navigation</h5>
+<ul class="first-item">
+  <li>Canopy </li>
+  <li>back end dev </li>
+  <li>2015</li>
+</ul>
+
+
+ <p class="text-1">A daily selection of privately  <br>
+ personalized reads; no accounts or sign-ups required.</p>
+ 
+ 
+ <ul class="item-2">
+  <li class="link-item"> <a href="#"> html</a></li>
+  <li  class="link-item" > <a href="#">css</a></li>
+  <li class="link-item"> <a href="#">javascript</a></li>
+
+</ul>
+
+<button class="btn">see projects</button>
+
+</div >
+</div>
+</section>
+<!-- works end here-->
+
+<section class="about-me special ">
+ <div class="works1">
+     <div class="end-1"> 
+    <h6 class="headings"> About myself</h6>
+
+   <p class="text-1">
+    Hello I’m a software developer! I can help you build <br> a product , feature or website. 
+    Look through some of my  work and experience! If you like what you see and have  a project you need coded, don’t hesitate to contact me.
+   </p>
+
+   <p class="about-p">let's connect</p>
+    <div class="link">
+       <ul class="media-icons">
+        <li>
+           <a href="#">
+             <img src="./images/Github.png" alt="twitter"> </a>
+            
+           </li>
+
+        <li>
+          <a href="#">
+          <img src="./images/Linkedin icon.png" alt="linkedin"> </a>
+       </li>
+
+       <li>
+        <a href="#">
+          <img src="./images/Vector.png" alt="mail">  </a>
+       </li>
+
+      <li>
+        <a href="#">
+          <img src="./images/Twitter.png" alt="github"></a>
+      </li>
+
+       <li> 
+        <a href=""> <img src="./images/Mail.png" alt="vector">
+        </a> 
+       </li>
+
+  </div>
+   
+    <button class="btn">Get my Resume</button>
+  </div>
+ <!--languages  start-->
+
+
+<div class="end-2"> 
+    <ul class="skill-1">
+       <li class="skill-div">
+           <h3 class="skill-heading">Languages</h3>
+      <svg
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"fill="currentColor" class="down-arrow">
+       <path
+        fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+      </svg>
+    </li>
+    
+      <div class="space">  
+      <li>
+          <ul class="languages-inputs">
+            <li>
+                <span class="lang-logo">
+                  <img  class="frontend javascript" src="./images/Frame 9 (1).png" alt="JavaScript Logo" />
+                </span>
+               <span>
+                <img class="pp-1" src="./images/javascript.mobile.png" alt=""> 
+              </span>   
+                                
+                </li>
+
+           <li>
+               <span>
+                 <img class="frontend" src="images/Frame 10 (1).png" alt="HTML Logo"  />
+                </span>
+
+                <span>
+                  <img class="pp-1" src="./images/html.mobile.png" alt="">
+                </span>
+          
+
+        </li>
+
+     <li>
+        <span>
+          <img class="frontend" src="./images/Frame 11 (1).png" b  alt="CSS Logo" />
+          <img class="pp-1" src="./images/Frame 11.mobile-css.png" alt="">
+        </span>
+      </li>
+
+    </ul>
+  </li>
+
+</div>
+
+  <li class="skill-div border">
+    <h3 class="skill-heading">Frameworks</h3>
+    <img class="r-a" src="./images/right-arrow.svg" alt="">
+  </li>
+    <img class="sep1" src="./images/Separator Bottom.png" alt="">
+  
+  <li class="skill-div border">
+    <h3 class="skill-heading">Skills</h3>
+    <img class="r-a" src="./images/right-arrow.svg" alt="">
+  </li>
+  <img class="sep2" src="./images/Separator Bottom.png" alt="">
+
+</ul>
+ </div>
+
+ </div>
+
+   <section class="contact">
+      <div class="contact-me container">
+          <h6 class="h-contact"> contact me</h6>
+            <div class="contact-in"> 
+        <p class="para">
+       If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+I’d love to help with it!
+        </p>
+    </div>
+         <form action="https://formspree.io/f/mvonypvv" method="post">
+          <fieldset> 
+          <input id="first-name" name="user_name" type="text" required placeholder="lores ipsum" maxlength="30" />
+         <input id="email"  name="" type="email" required placeholder="loresipsum@gmail.com" />
+        </fieldset>
+         <fieldset> 
+        <textarea name="message" placeholder="Enter your message here..."  cols="50" rows="10" maxlength="500" required></textarea>
+      </fieldset>
+       <button class="resume">
+         Get in touch
+       </button>
+
+        </form>
+      </div>
+    
+    </section>
+  </section>
+</body>
+</html>
