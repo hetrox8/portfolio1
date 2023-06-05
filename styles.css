@@ -167,9 +167,30 @@ a {
   gap: 1.2rem;
 }
 
+.right-img {
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  margin-bottom: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.left-img {
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  margin-bottom: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
 .first-image {
   border-radius: 0.8rem;
-  width: 100%;
 }
 
 .card-details {
@@ -514,6 +535,26 @@ textarea::placeholder {
     margin: auto 10%;
   }
 
+  .left-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6%;
+    padding: 2.8rem;
+    gap: 6%;
+  }
+
+  .right-img {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 6%;
+    padding: 2.8rem;
+    gap: 6%;
+  }
+
+  .first-image {
+    border-radius: 0.8rem;
+  }
+
   .sep {
     color: #dfe1e6;
   }
@@ -639,10 +680,6 @@ textarea::placeholder {
     column-gap: 6%;
     padding: 2.8rem;
     gap: 6%;
-  }
-
-  .first-img {
-    align-self: center;
   }
 
   .card-works:nth-child(even) > .first-img {
