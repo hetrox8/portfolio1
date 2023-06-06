@@ -366,17 +366,11 @@ a {
   display: inline-block;
   padding-left: 4%;
 }
+
 .contact {
   background-color: #6070ff;
   border-top-left-radius: 6.4rem;
   padding: 12rem 0 4.8rem 0;
-}
-
-.contact-me {
-  padding: auto 2.4rem;
-  display: flex;
-  flex-direction: column;
-  gap: 5.2rem;
 }
 
 .contact-me {
@@ -560,12 +554,14 @@ form {
   .container {
     margin: auto 10%;
   }
+
   .contact-me {
     background-image: url('./images/contact-original.png');
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: 90px 90px !important;
   }
+
   .left-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -607,7 +603,7 @@ form {
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
-    width: 60%;
+    width: inherit;
     margin: 0 auto;
     margin-top: 5%;
   }
