@@ -66,10 +66,10 @@ a {
 .container-all {
   display: flex;
   flex-direction: column;
-  background-image: url('./images/header.now.png');
+  background-image: url('./images/Header\ bg@2x.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100% 9rem;
+  background-position: top;
   padding-bottom: 1rem;
   margin-bottom: 12%;
   background-color: #ffff;
@@ -373,8 +373,17 @@ a {
   padding: 12rem 0 4.8rem 0;
 }
 
+.link-item:nth-child(3) {
+  display: none;
+}
+
+.item-2:nth-child(2) {
+  display: none;
+}
+
 .contact-me {
-  background-image: url('./images/contact-mobi.png');
+  background-image: url('./images/comeon.png');
+  background-position: 10% 13%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -553,7 +562,6 @@ form {
     background-image: url('./images/contact-original.png');
     background-repeat: no-repeat;
     background-size: 90%;
-    background-position: 90px 90px !important;
   }
 
   .left-img {
@@ -725,6 +733,10 @@ form {
     column-gap: 6%;
     padding: 2.8rem;
     gap: 6%;
+  }
+
+  .link-item:nth-child(3) {
+    display: inline-block;
   }
 
   .card-works:nth-child(even) > .first-img {
