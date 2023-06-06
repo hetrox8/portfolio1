@@ -45,7 +45,6 @@ html {
 
 .link {
   margin-bottom: 3.4rem;
-  padding: 5%;
 }
 
 a {
@@ -89,6 +88,7 @@ a {
 }
 
 .container1 {
+  padding-bottom: 5%;
   display: flex;
   flex-direction: column;
   margin-top: 10%;
@@ -553,6 +553,7 @@ textarea::placeholder {
 
   .first-image {
     border-radius: 0.8rem;
+    width: 100%;
   }
 
   .sep {
@@ -566,6 +567,13 @@ textarea::placeholder {
   .frontend {
     display: flex;
     flex-direction: column;
+  }
+
+  .card-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
   }
 
   .space-desk {
