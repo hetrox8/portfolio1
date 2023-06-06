@@ -45,7 +45,6 @@ html {
 
 .link {
   margin-bottom: 3.4rem;
-  padding: 5%;
 }
 
 a {
@@ -89,6 +88,7 @@ a {
 }
 
 .container1 {
+  padding-bottom: 5%;
   display: flex;
   flex-direction: column;
   margin-top: 10%;
@@ -366,14 +366,10 @@ a {
   display: inline-block;
   padding-left: 4%;
 }
-
 .contact {
   background-color: #6070ff;
   border-top-left-radius: 6.4rem;
   padding: 12rem 0 4.8rem 0;
-  background-repeat: no-repeat;
-  background-size: auto 88%;
-  background-position: right;
 }
 
 .contact-me {
@@ -381,6 +377,12 @@ a {
   display: flex;
   flex-direction: column;
   gap: 5.2rem;
+}
+
+.contact-me {
+  background-image: url('./images/contact-form.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .h-contact {
@@ -478,6 +480,23 @@ textarea::placeholder {
   cursor: pointer;
 }
 
+.cont-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6070ff;
+  background-color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 1.2rem 1.6rem;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
 .logo-mobile {
   gap: 3%;
 }
@@ -525,6 +544,13 @@ textarea::placeholder {
   padding-bottom: 35%;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .r-a {
   padding-right: 5%;
   padding-bottom: 5%;
@@ -534,13 +560,22 @@ textarea::placeholder {
   .container {
     margin: auto 10%;
   }
-
+  .contact-me {
+    background-image: url('./images/contact-original.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 90px 90px !important;
+  }
   .left-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 6%;
     padding: 2.8rem;
     gap: 6%;
+  }
+
+  .link {
+    padding: 0;
   }
 
   .right-img {
@@ -553,10 +588,28 @@ textarea::placeholder {
 
   .first-image {
     border-radius: 0.8rem;
+    width: 100%;
   }
 
   .sep {
     color: #dfe1e6;
+  }
+
+  .cont-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6070ff;
+    background-color: #fff;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 1.2rem 1.6rem;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
   }
 
   .pp-1 {
@@ -566,6 +619,13 @@ textarea::placeholder {
   .frontend {
     display: flex;
     flex-direction: column;
+  }
+
+  .card-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
   }
 
   .space-desk {
@@ -646,12 +706,7 @@ textarea::placeholder {
 
   /* HEADLINE PART */
   .container-all {
-    background-image: url('./images/header-shapes\ mobile.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(2);
     opacity: 3;
-    background-position: 100% 100%;
     width: 100%;
     border-radius: 0;
     padding-top: 23%;
@@ -716,9 +771,6 @@ textarea::placeholder {
   }
 
   /* CONTACT PART */
-  .contact {
-    background-image: url('./images/contact-form-bg.png');
-  }
 
   .contact-desc {
     margin: auto 25%;
