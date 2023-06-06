@@ -598,4 +598,14 @@ textarea::placeholder {
     width: 44.7rem;
     border-radius: 0.2rem;
   }
+
+  .resume:hover{
+    background-color: #7e7ed6;
+    color: white;
+  }
+
+  .resume:active{
+    background-color: #2230d2;
+    color: white;
+  }
 }
