@@ -374,7 +374,7 @@ a {
 }
 
 .contact-me {
-  background-image: url('./images/contact-form.png');
+  background-image: url('./images/contact-mobi.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -420,11 +420,6 @@ input::placeholder {
   font-size: 15px;
   line-height: 24px;
   color: #172b4d;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
 }
 
 fieldset {
@@ -486,7 +481,6 @@ textarea::placeholder {
   border: none;
   border-radius: 0.8rem;
   cursor: pointer;
-  width: 60%;
   margin: 0 auto;
   margin-top: 5%;
 }
@@ -605,7 +599,7 @@ form {
     cursor: pointer;
     width: inherit;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 2%;
   }
 
   .pp-1 {
@@ -770,11 +764,6 @@ form {
 
   .contact-desc {
     margin: auto 25%;
-  }
-
-  .contact-me {
-    justify-content: center;
-    align-items: center;
   }
 
   .space {
