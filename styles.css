@@ -372,8 +372,7 @@ a {
   border-top-left-radius: 6.4rem;
   padding: 12rem 0 4.8rem 0;
   background-repeat: no-repeat;
-  background-size: auto 88%;
-  background-position: right;
+  background-size: contain;
 }
 
 .contact-me {
@@ -478,6 +477,23 @@ textarea::placeholder {
   cursor: pointer;
 }
 
+.cont-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6070ff;
+  background-color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 1.2rem 1.6rem;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
 .logo-mobile {
   gap: 3%;
 }
@@ -525,6 +541,13 @@ textarea::placeholder {
   padding-bottom: 35%;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .r-a {
   padding-right: 5%;
   padding-bottom: 5%;
@@ -542,6 +565,11 @@ textarea::placeholder {
     padding: 2.8rem;
     gap: 6%;
   }
+
+.form {
+  background-image: url(./images/contact\ form\ shapes-mobile.png);
+  align-items: center;
+}
 
   .right-img {
     display: flex;
@@ -656,10 +684,8 @@ textarea::placeholder {
   .container-all {
     background-image: url('./images/header-shapes\ mobile.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(2);
+    background-size: contain;
     opacity: 3;
-    background-position: 100% 100%;
     width: 100%;
     border-radius: 0;
     padding-top: 23%;
@@ -725,7 +751,9 @@ textarea::placeholder {
 
   /* CONTACT PART */
   .contact {
-    background-image: url('./images/contact-form-bg.png');
+    background-image: url('./images/contact\ form\ shapes-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .contact-desc {
