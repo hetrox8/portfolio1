@@ -371,8 +371,6 @@ a {
   background-color: #6070ff;
   border-top-left-radius: 6.4rem;
   padding: 12rem 0 4.8rem 0;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .contact-me {
@@ -566,9 +564,11 @@ textarea::placeholder {
     gap: 6%;
   }
 
-.form {
+form {
   background-image: url(./images/contact\ form\ shapes-mobile.png);
   align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
   .right-img {
@@ -682,9 +682,6 @@ textarea::placeholder {
 
   /* HEADLINE PART */
   .container-all {
-    background-image: url('./images/header-shapes\ mobile.png');
-    background-repeat: no-repeat;
-    background-size: contain;
     opacity: 3;
     width: 100%;
     border-radius: 0;
@@ -750,11 +747,6 @@ textarea::placeholder {
   }
 
   /* CONTACT PART */
-  .contact {
-    background-image: url('./images/contact\ form\ shapes-mobile.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
   .contact-desc {
     margin: auto 25%;
