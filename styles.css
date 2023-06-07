@@ -388,6 +388,12 @@ a {
   background-size: cover;
 }
 
+.ori {
+  background-image: url('./images/mobile-contact.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .h-contact {
   font-style: normal;
   font-weight: 700;
