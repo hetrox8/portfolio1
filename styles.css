@@ -371,6 +371,12 @@ a {
   background-color: #6070ff;
   border-top-left-radius: 6.4rem;
   padding: 12rem 0 4.8rem 0;
+  background-image: url('./images/mobile-contact.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right, bottom center;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 
 .link-item:nth-child(3) {
@@ -379,12 +385,6 @@ a {
 
 .item-2:nth-child(2) {
   display: none;
-}
-
-.ori {
-  background-image: url('./images/mobile-contact.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .h-contact {
@@ -489,8 +489,18 @@ textarea::placeholder {
   border: none;
   border-radius: 0.8rem;
   cursor: pointer;
-  margin: 0 auto;
+  margin-right: 56%;
   margin-top: 5%;
+}
+
+.cont-btn:hover {
+  background-color: rebeccapurple;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cont-btn:active {
+  background-color: #fff;
 }
 
 .logo-mobile {
@@ -591,7 +601,7 @@ form {
   .sep {
     color: #dfe1e6;
   }
-
+/*
   .cont-btn {
     display: flex;
     justify-content: center;
@@ -608,6 +618,7 @@ form {
     margin: 0 auto;
     margin-top: 2%;
   }
+  */
 
   .pp-1 {
     display: none;
