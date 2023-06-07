@@ -601,23 +601,6 @@ form {
     color: #dfe1e6;
   }
 
-  .cont-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #6070ff;
-    background-color: #fff;
-    font-size: 1.7rem;
-    font-weight: 500;
-    padding: 1.2rem 1.6rem;
-    border: none;
-    border-radius: 0.8rem;
-    cursor: pointer;
-    width: inherit;
-    margin: 0 auto;
-    margin-top: 2%;
-  }
-
   .pp-1 {
     display: none;
   }
