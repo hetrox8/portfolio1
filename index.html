@@ -1,300 +1,798 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
- 
-  <nav class="nav-bar">
+body {
+  text-transform: capitalize;
+  background-color: #e5e5e5;
+  box-sizing: border-box;
+  overflow: scroll;
+}
 
-    <div class="logo"> 
-         <a href="#"><img src="./images/My Logo.png" alt="logo for the website"></a> 
-    </div>
-  
-        <div class="dashboard">  
-           <a href="#"><img src="./images/Union.png" alt="dashboard"></a>
-        </div>
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-        <ul class="list-nav">
-          <li> <a href="#"> Portfolio</a>  </li>
-          <li> <a href="#">about</a></li>
-          <li> <a href="#">contact</a></li>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+}
 
-        </ul>
+.container {
+  margin: auto 2.4rem;
+  overflow: hidden;
+}
 
-      
+header {
+  background-color: #fff;
+}
 
-      </nav>
+html {
+  font-size: 62.3%;
+  scroll-behavior: smooth;
+}
 
- </header>
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  padding: 5%;
+  top: 0;
+}
 
-  <section class="container-all">
-    <div class="container1 container"> 
-  
-      <h1 class="iam">I'm Suleiman Yusuf Gacheru. Glad to see
-        you! </h1>
-     <p class="firstp">
-        I’m a software developer! I can help you build a product , 
-        feature or website Look through some of my work and experience!
-         If you like what you see and have a project you need coded, don’t hesitate to contact me.
+.list-nav {
+  display: none;
+}
 
-         <h2 class="connect1">let's connect</h2>
-      </p>
+.link {
+  margin-bottom: 3.4rem;
+}
 
-    
+a {
+  text-decoration: none;
+}
 
-    <div class="link">
-      <ul class="media-icons">
-        <li>
-          <a href="#">
-            <img src="./images/Twitter.png" alt="twitter">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./images/Linkedin icon.png" alt="linkedin">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./images/Mail.png" alt="mail">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./images/Github.png" alt="github">
-          </a>
-        </li>
-        <li>
-         
-            <img src="./images/Vector.png" alt="vector">
+.logo a {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
 
-    </div>
+.logo {
+  color: #6070ff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
 
-  </div>
-  </section>
-    <!-- works -->
+.container-all {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./images/Header\ bg@2x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 1rem;
+  margin-bottom: 12%;
+  background-color: #ffff;
+  border-bottom-left-radius: 4pc;
+}
 
-    
-<section class="works">
-  
-<div class="card-works container">
-  <img id="mobile-1" class="first-image" src="./images/Snapshoot Portfolio (1).png" alt="">
+.works {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12.7rem;
+  background-color: inherit;
+  padding: 12.8rem 0 2.8rem 0;
 
-  <div class="card-details">
-    <h2 class="headings">Tonics</h2>
+  /* padding-bottom: 12.8rem; */
+  margin-bottom: 12.8rem;
+}
 
- <ul class="first-item">
-   <li> Canopy </li>
-   <li> back end dev</li>
-   <li> 2015</li>
- </ul>
+.container1 {
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-image: url('./images/header-shapes\ mobile.png');
+}
 
-  <p class="text-1">
-    A daily selection of privately <br>
-     personalized reads; no accounts or sign-ups required.
-  </p>
+.iam {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #172b4d;
+  text-transform: capitalize;
+  letter-spacing: 0.37px;
+  margin-top: 0;
+  padding: 0;
+}
 
-  <ul class="item-2">
-      <li> html</li>
-      <li>css</li>
-      <li>javascript</li>
-  </ul>
+.iam span {
+  display: none;
+}
 
-   <button class="btn">see projects</button>
+.firstp {
+  color: #344563;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 1rem;
+}
 
-    </div>
-  </div>
+.connect1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
 
-<!--first  card ends-->
+.connect {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
 
-<div class="card-works container">
-  <img  class="first-image" src="./images/Snapshoot Portfolio (2).png" alt="">
+.lets-connect {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-bottom: 1.2rem;
+}
 
- <div class="card-details"> 
- <h3 class="headings"> Multi-Post <br> Stories</h3>
+.media-icons {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
 
- <ul class="first-item">
-  <li>Canopy</li>
-  <li>back end dev</li>
-  <li>2015</li>
-</ul>
+.card-works {
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  margin-bottom: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
 
-<p class="text-1">
-  A daily selection of privately <br>
-   personalized reads; no accounts or sign-ups required.
-</p>
- 
-<ul class="item-2">
-  <li>html</li>
-  <li>css</li>
-  <li>javascript</li>
+.right-img {
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  margin-bottom: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
 
-</ul>
+.left-img {
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  margin-bottom: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
 
-  <button class="btn">see projects</button>   
+.first-image {
+  border-radius: 0.8rem;
+}
 
-</div>
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 
-</div>
+.headings {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
 
-<!-- second card ends-->
+.first-item {
+  color: #7a869a;
+  font-size: 1.3rem;
+  display: flex;
+  gap: 3.2rem;
+}
 
-<div class="card-works container">
-<img  class="first-image" src="./images/Snapshoot Portfolio (3).png" alt="">
-  <div class="card-details"> 
-    <h4 class="headings">facebook 360</h4>  
- <ul class="first-item">
-   <li > Canopy</li>
-   <li>back end dev</li>
-   <li> 2015</li>
- </ul>
- 
- <p class="text-1">A daily selection of privately  <br>
- personalized reads; no accounts or sign-ups required.</p>
- 
- <ul class="item-2">
-  <li> html</li>
-  <li>css</li>
-  <li>javascript</li>
+.text-1 {
+  color: #344563;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 10%;
+}
 
-</ul>
+.item-2 {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
 
-<button class="btn">see projects</button>
-</div>
-</div>
+.item-2 li {
+  background: #ebebff;
+  color: #6070ff;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  padding: 0.4rem 1.2rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-<!-- third card ends-->
+.first-item li:first-child {
+  list-style: none;
+  color: #344563;
+  font-weight: 600;
+}
 
-<div class="card-works container">
+.end-1 {
+  width: 90%;
+}
 
-  <img  class="first-image" src="./images/Snapshoot Portfolio (4).png" alt="">
-  
-<div class="card-details"> 
-<h5 class="connect">uber navigation</h5>
-<ul class="first-item">
-  <li>Canopy </li>
-  <li>back end dev </li>
-  <li>2015</li>
-</ul>
+.btn {
+  background: transparent;
+  color: #396df2;
+  font-size: 1.7rem;
+  border: 1px solid #6070ff;
+  border-radius: 0.8rem;
+  padding: 1.2rem 1.6rem;
+  align-self: flex-start;
+  font-weight: 500;
+}
 
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  cursor: pointer;
+}
 
- <p class="text-1">A daily selection of privately  <br>
- personalized reads; no accounts or sign-ups required.</p>
- 
- 
- <ul class="item-2">
-  <li class="link-item"> <a href="#"> html</a></li>
-  <li  class="link-item" > <a href="#">css</a></li>
-  <li class="link-item"> <a href="#">javascript</a></li>
+.btn:active {
+  background-color: #2230d2;
+}
 
-</ul>
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
 
-<button class="btn">see projects</button>
+.works1 {
+  border-top-left-radius: 45pt;
+  padding-left: 5%;
+}
 
-</div >
-</div>
-</section>
-<!-- works end here-->
+.skillset {
+  list-style: none;
+  margin-bottom: 12.8rem;
+}
 
-<section class="about">
-  <div class="works1">
-   
-     <h2 class="abt-self"> About myself</h2>
- 
-    <p class="abt-p">
-     Hello I’m a software developer! I can help you build a product , feature or website. 
-     Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-    </p>
- 
-    <p class="lets-connect">let's connect</p>
-    <div class="link">
-     <ul class="media-icons">
-       <li>
-         <a href="#">
-           <img src="./images/Github.png" alt="twitter">
-         </a>
-       </li>
-       <li>
-         <a href="#">
-           <img src="./images/Linkedin icon.png" alt="linkedin">
-         </a>
-       </li>
-       <li>
-         <a href="#">
-           <img src="./images/Mail.png" alt="mail">
-         </a>
-       </li>
-       <li>
-         <a href="#">
-           <img src="./images/Twitter.png" alt="github">
-         </a>
-       </li>
-       <li>
-        
-           <img src="./images/Vector.png" alt="vector">
- 
-   </div>
-    
-     <button class="resume">
-       Get my Resume
-     </button>
-  
-     <h3 class="lang">languages <a href="#"> <img src="./images/down-arrow.svg" class="icon1" alt=""></a> </h3>  
-      <div class="langs">
-        
-       <ul class="languages">
-         <li> <a href="#"> <img src="./images/Frame 9.png" alt=""></a> </li>
-         <li> <a href="#"><img src="./images/Frame 10.png" alt=""></a> </li>
-         <li> <a href="#"><img src="./images/Frame 11.png" alt=""></a></li>
-       </ul>
- 
-     </div>
- 
-       <div class="framework">
-       <p class="frameworks"> Frameworks <img src="./images/right-arrow.svg"alt="" class="icon2"> </p>
-       <p class="skills">skills <img src="./images/right-arrow.svg" alt="" class="icon2"> </p>
-       <img src="" alt="">
-         <img src="" alt="">
- 
- 
-       </div>
- 
-     </section>
-      
+.skill-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+}
 
-   <section class="contact">
-      <div class="contact-me container">
-          <h6 class="h-contact"> contact me</h6>
-            <div class="contact-in"> 
-        <p class="para">
-       If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-I’d love to help with it!
-        </p>
-    </div>
-         <form action="https://formspree.io/f/mvonypvv" method="post">
-          <fieldset> 
-          <input id="first-name" name="user_name" type="text" required placeholder="lores ipsum" maxlength="30" />
-         <input id="email"  name="" type="email" required placeholder="loresipsum@gmail.com" />
-        </fieldset>
-         <fieldset> 
-        <textarea name="message" placeholder="Enter your message here..."  cols="50" rows="10" maxlength="500" required></textarea>
-      </fieldset>
-       <button class="resume">
-         Get in touch
-       </button>
+.skill-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  padding-bottom: 5%;
+}
 
-        </form>
-      </div>
+.down-arrow {
+  color: #acb7c3;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1.8rem;
+}
 
-    </section>
-</body>
-</html>
+.special {
+  padding-top: 21%;
+  width: inherit;
+  border-top-right-radius: 55pt;
+}
+
+.languages-inputs {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.languages-elements li p {
+  color: #253858;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.connect-1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.lang {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  padding-top: 4%;
+  padding-bottom: 10%;
+}
+
+.about-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.langs ul {
+  list-style: none;
+}
+
+.right {
+  display: inline-block;
+  padding-left: 4%;
+}
+
+.contact {
+  background-color: #6070ff;
+  border-top-left-radius: 6.4rem;
+  padding: 12rem 0 4.8rem 0;
+}
+
+.link-item:nth-child(3) {
+  display: none;
+}
+
+.item-2:nth-child(2) {
+  display: none;
+}
+
+.contact-me {
+  background-image: url('./images/comeon.png');
+  background-position: 10% 13%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h-contact {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+  color: #fff;
+  padding: auto 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.2rem;
+}
+
+.para {
+  padding-top: 1%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 1%;
+}
+
+input {
+  border: none;
+  border-radius: 10px 5pt;
+  display: block;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 32.7rem;
+  height: 4.5rem;
+  padding: 1.5rem 3.8rem 1.5rem 1.6rem;
+}
+
+input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #172b4d;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem auto;
+}
+
+textarea {
+  border: none;
+  text-align: left;
+  width: 32.7rem;
+  height: 17.5rem;
+  color: #172b4d;
+  font-size: 1.5rem;
+  border-radius: 0.8rem;
+  padding: 1.5rem 3.8rem 1.5rem 1.6rem;
+}
+
+textarea::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 2%;
+  color: #b3bac5;
+  font-size: 1.5rem;
+}
+
+.l-btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background: #fff;
+  height: 50px;
+  padding-left: 3%;
+  margin-left: 3%;
+}
+
+.resume {
+  color: #6070ff;
+  background-color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 1.2rem 1.6rem;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.cont-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6070ff;
+  background-color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 1.2rem 1.6rem;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.logo-mobile {
+  gap: 3%;
+}
+
+.abt-self {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.about-me {
+  background: #ffff;
+}
+
+.abt-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.languages-inputs-mobile {
+  flex-direction: co;
+}
+
+.frontend {
+  display: none;
+}
+
+.sep1 {
+  margin-bottom: 0;
+  width: 95%;
+  color: #dfe1e6;
+}
+
+.sep2 {
+  margin-bottom: 12%;
+  width: 95%;
+  color: #dfe1e6;
+  padding-bottom: 35%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.r-a {
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: auto 10%;
+  }
+
+  .contact-me {
+    background-image: url('./images/contact-original.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+  }
+
+  .left-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6%;
+    padding: 2.8rem;
+    gap: 6%;
+  }
+
+  .link {
+    padding: 0;
+  }
+
+  .right-img {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 6%;
+    padding: 2.8rem;
+    gap: 6%;
+  }
+
+  .first-image {
+    border-radius: 0.8rem;
+    width: 100%;
+  }
+
+  .sep {
+    color: #dfe1e6;
+  }
+
+  .cont-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6070ff;
+    background-color: #fff;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 1.2rem 1.6rem;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    width: inherit;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+
+  .pp-1 {
+    display: none;
+  }
+
+  .frontend {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .space-desk {
+    display: none;
+  }
+
+  /* NAVBAR SECTION  */
+  .navbar {
+    padding: 2.3rem 6.8rem;
+  }
+
+  .dashboard {
+    display: none;
+  }
+
+  .end-1 {
+    width: 100%;
+  }
+
+  .text-1 {
+    color: #344563;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 10%;
+    padding-bottom: 3%;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  ul.list-nav {
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  .list-nav a:link,
+  .list-nav a:visited {
+    text-decoration: none;
+    color: #344563;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .special {
+    padding-top: 21%;
+    width: inherit;
+    border-top-right-radius: 55pt;
+  }
+
+  .list-nav a:hover,
+  .list-nav a:active {
+    border-bottom: 0.3rem solid #6070ff;
+  }
+
+  .connect-1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .about-p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  /* HEADLINE PART */
+  .container-all {
+    opacity: 3;
+    width: 100%;
+    border-radius: 0;
+    padding-top: 23%;
+    gap: 2.2rem;
+    padding-bottom: 12%;
+    border-bottom-left-radius: 75pt;
+  }
+
+  .iam {
+    margin-top: 10;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .end-2 {
+    width: 100%;
+  }
+
+  /* PROJECT PART */
+
+  .card-works {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6%;
+    padding: 2.8rem;
+    gap: 6%;
+  }
+
+  .link-item:nth-child(3) {
+    display: inline-block;
+  }
+
+  .card-works:nth-child(even) > .first-img {
+    order: 2;
+  }
+
+  .btn {
+    justify-self: left;
+  }
+
+  /* ABOUT PART  */
+  .languages-inputs {
+    flex-direction: row;
+  }
+
+  .languages-inputs li {
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* ABOUT PART  */
+
+  .works1 {
+    padding: 5%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    row-gap: 14%;
+  }
+
+  .skill-1 {
+    margin-top: -2rem;
+  }
+
+  /* CONTACT PART */
+
+  .contact-desc {
+    margin: auto 25%;
+  }
+
+  .space {
+    gap: 3%;
+  }
+
+  .connect {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .contact-input,
+  .contact-message {
+    width: 44.7rem;
+    border-radius: 0.2rem;
+  }
+}
