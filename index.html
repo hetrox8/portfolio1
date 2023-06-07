@@ -1,798 +1,352 @@
-body {
-  text-transform: capitalize;
-  background-color: #e5e5e5;
-  box-sizing: border-box;
-  overflow: scroll;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  list-style-type: none;
-}
-
-.container {
-  margin: auto 2.4rem;
-  overflow: hidden;
-}
-
-header {
-  background-color: #fff;
-}
-
-html {
-  font-size: 62.3%;
-  scroll-behavior: smooth;
-}
-
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 10vh;
-  padding: 5%;
-  top: 0;
-}
-
-.list-nav {
-  display: none;
-}
-
-.link {
-  margin-bottom: 3.4rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-.logo a {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-.logo {
-  color: #6070ff;
-  font-size: 1.8rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.container-all {
-  display: flex;
-  flex-direction: column;
-  background-image: url('./images/Header\ bg@2x.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  padding-bottom: 1rem;
-  margin-bottom: 12%;
-  background-color: #ffff;
-  border-bottom-left-radius: 4pc;
-}
-
-.works {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 12.7rem;
-  background-color: inherit;
-  padding: 12.8rem 0 2.8rem 0;
-
-  /* padding-bottom: 12.8rem; */
-  margin-bottom: 12.8rem;
-}
-
-.container1 {
-  padding-bottom: 5%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 10%;
-  margin-bottom: 0%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 100%;
-  background-image: url('./images/header-shapes\ mobile.png');
-}
-
-.iam {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  color: #172b4d;
-  text-transform: capitalize;
-  letter-spacing: 0.37px;
-  margin-top: 0;
-  padding: 0;
-}
-
-.iam span {
-  display: none;
-}
-
-.firstp {
-  color: #344563;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 24px;
-  padding-bottom: 1rem;
-}
-
-.connect1 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-}
-
-.connect {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091e42;
-}
-
-.lets-connect {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-  margin-bottom: 1.2rem;
-}
-
-.media-icons {
-  list-style-type: none;
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
-
-.card-works {
-  background-color: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 1.6rem;
-  padding: 1.6rem;
-  margin-bottom: 12rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.right-img {
-  background-color: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 1.6rem;
-  padding: 1.6rem;
-  margin-bottom: 12rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.left-img {
-  background-color: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 1.6rem;
-  padding: 1.6rem;
-  margin-bottom: 12rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.first-image {
-  border-radius: 0.8rem;
-}
-
-.card-details {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.headings {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091e42;
-}
-
-.first-item {
-  color: #7a869a;
-  font-size: 1.3rem;
-  display: flex;
-  gap: 3.2rem;
-}
-
-.text-1 {
-  color: #344563;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  padding-right: 10%;
-}
-
-.item-2 {
-  display: flex;
-  gap: 0.8rem;
-  margin-bottom: 1rem;
-}
-
-.item-2 li {
-  background: #ebebff;
-  color: #6070ff;
-  font-size: 1.2rem;
-  border-radius: 8px;
-  padding: 0.4rem 1.2rem;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.first-item li:first-child {
-  list-style: none;
-  color: #344563;
-  font-weight: 600;
-}
-
-.end-1 {
-  width: 90%;
-}
-
-.btn {
-  background: transparent;
-  color: #396df2;
-  font-size: 1.7rem;
-  border: 1px solid #6070ff;
-  border-radius: 0.8rem;
-  padding: 1.2rem 1.6rem;
-  align-self: flex-start;
-  font-weight: 500;
-}
-
-.btn:hover {
-  background-color: #6070ff;
-  color: #fff;
-  cursor: pointer;
-}
-
-.btn:active {
-  background-color: #2230d2;
-}
-
-.about {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 6%;
-  padding-left: 5%;
-  padding-bottom: 5%;
-}
-
-.works1 {
-  border-top-left-radius: 45pt;
-  padding-left: 5%;
-}
-
-.skillset {
-  list-style: none;
-  margin-bottom: 12.8rem;
-}
-
-.skill-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 3.2rem;
-}
-
-.skill-heading {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
-  padding-bottom: 5%;
-}
-
-.down-arrow {
-  color: #acb7c3;
-  width: 2.4rem;
-  height: 2.4rem;
-  margin-right: 1.8rem;
-}
-
-.special {
-  padding-top: 21%;
-  width: inherit;
-  border-top-right-radius: 55pt;
-}
-
-.languages-inputs {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.languages-elements li p {
-  color: #253858;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.connect-1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091e42;
-}
-
-.lang {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
-  padding-top: 4%;
-  padding-bottom: 10%;
-}
-
-.about-p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-}
-
-.langs ul {
-  list-style: none;
-}
-
-.right {
-  display: inline-block;
-  padding-left: 4%;
-}
-
-.contact {
-  background-color: #6070ff;
-  border-top-left-radius: 6.4rem;
-  padding: 12rem 0 4.8rem 0;
-}
-
-.link-item:nth-child(3) {
-  display: none;
-}
-
-.item-2:nth-child(2) {
-  display: none;
-}
-
-.contact-me {
-  background-image: url('./images/comeon.png');
-  background-position: 10% 13%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.h-contact {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  line-height: 52px;
-  color: #fff;
-  padding: auto 2.4rem;
-  display: flex;
-  flex-direction: column;
-  gap: 5.2rem;
-}
-
-.para {
-  padding-top: 1%;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  color: #fff;
-  line-height: 28px;
-  text-align: center;
-  margin-top: 1%;
-}
-
-input {
-  border: none;
-  border-radius: 10px 5pt;
-  display: block;
-  margin-top: 4%;
-  margin-bottom: 4%;
-  width: 32.7rem;
-  height: 4.5rem;
-  padding: 1.5rem 3.8rem 1.5rem 1.6rem;
-}
-
-input::placeholder {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #172b4d;
-}
-
-fieldset {
-  border: none;
-  padding: 2rem auto;
-}
-
-textarea {
-  border: none;
-  text-align: left;
-  width: 32.7rem;
-  height: 17.5rem;
-  color: #172b4d;
-  font-size: 1.5rem;
-  border-radius: 0.8rem;
-  padding: 1.5rem 3.8rem 1.5rem 1.6rem;
-}
-
-textarea::placeholder {
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  margin-top: 2%;
-  color: #b3bac5;
-  font-size: 1.5rem;
-}
-
-.l-btn {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  background: #fff;
-  height: 50px;
-  padding-left: 3%;
-  margin-left: 3%;
-}
-
-.resume {
-  color: #6070ff;
-  background-color: #fff;
-  font-size: 1.7rem;
-  font-weight: 500;
-  padding: 1.2rem 1.6rem;
-  border: none;
-  border-radius: 0.8rem;
-  cursor: pointer;
-}
-
-.cont-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #6070ff;
-  background-color: #fff;
-  font-size: 1.7rem;
-  font-weight: 500;
-  padding: 1.2rem 1.6rem;
-  border: none;
-  border-radius: 0.8rem;
-  cursor: pointer;
-  margin: 0 auto;
-  margin-top: 5%;
-}
-
-.logo-mobile {
-  gap: 3%;
-}
-
-.abt-self {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #172b4d;
-}
-
-.about-me {
-  background: #ffff;
-}
-
-.abt-p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-
-.languages-inputs-mobile {
-  flex-direction: co;
-}
-
-.frontend {
-  display: none;
-}
-
-.sep1 {
-  margin-bottom: 0;
-  width: 95%;
-  color: #dfe1e6;
-}
-
-.sep2 {
-  margin-bottom: 12%;
-  width: 95%;
-  color: #dfe1e6;
-  padding-bottom: 35%;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.r-a {
-  padding-right: 5%;
-  padding-bottom: 5%;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    margin: auto 10%;
-  }
-
-  .contact-me {
-    background-image: url('./images/contact-original.png');
-    background-repeat: no-repeat;
-    background-size: 90%;
-  }
-
-  .left-img {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 6%;
-    padding: 2.8rem;
-    gap: 6%;
-  }
-
-  .link {
-    padding: 0;
-  }
-
-  .right-img {
-    display: flex;
-    flex-direction: row-reverse;
-    column-gap: 6%;
-    padding: 2.8rem;
-    gap: 6%;
-  }
-
-  .first-image {
-    border-radius: 0.8rem;
-    width: 100%;
-  }
-
-  .sep {
-    color: #dfe1e6;
-  }
-
-  .cont-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #6070ff;
-    background-color: #fff;
-    font-size: 1.7rem;
-    font-weight: 500;
-    padding: 1.2rem 1.6rem;
-    border: none;
-    border-radius: 0.8rem;
-    cursor: pointer;
-    width: inherit;
-    margin: 0 auto;
-    margin-top: 2%;
-  }
-
-  .pp-1 {
-    display: none;
-  }
-
-  .frontend {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .card-details {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 2rem;
-  }
-
-  .space-desk {
-    display: none;
-  }
-
-  /* NAVBAR SECTION  */
-  .navbar {
-    padding: 2.3rem 6.8rem;
-  }
-
-  .dashboard {
-    display: none;
-  }
-
-  .end-1 {
-    width: 100%;
-  }
-
-  .text-1 {
-    color: #344563;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    padding-right: 10%;
-    padding-bottom: 3%;
-  }
-
-  .nav-btn {
-    display: none;
-  }
-
-  ul.list-nav {
-    list-style: none;
-    display: flex;
-    gap: 3.2rem;
-  }
-
-  .list-nav a:link,
-  .list-nav a:visited {
-    text-decoration: none;
-    color: #344563;
-    display: flex;
-    align-items: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  .special {
-    padding-top: 21%;
-    width: inherit;
-    border-top-right-radius: 55pt;
-  }
-
-  .list-nav a:hover,
-  .list-nav a:active {
-    border-bottom: 0.3rem solid #6070ff;
-  }
-
-  .connect-1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-  }
-
-  .about-p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-  }
-
-  /* HEADLINE PART */
-  .container-all {
-    opacity: 3;
-    width: 100%;
-    border-radius: 0;
-    padding-top: 23%;
-    gap: 2.2rem;
-    padding-bottom: 12%;
-    border-bottom-left-radius: 75pt;
-  }
-
-  .iam {
-    margin-top: 10;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-  }
-
-  .end-2 {
-    width: 100%;
-  }
-
-  /* PROJECT PART */
-
-  .card-works {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 6%;
-    padding: 2.8rem;
-    gap: 6%;
-  }
-
-  .link-item:nth-child(3) {
-    display: inline-block;
-  }
-
-  .card-works:nth-child(even) > .first-img {
-    order: 2;
-  }
-
-  .btn {
-    justify-self: left;
-  }
-
-  /* ABOUT PART  */
-  .languages-inputs {
-    flex-direction: row;
-  }
-
-  .languages-inputs li {
-    list-style: none;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  /* ABOUT PART  */
-
-  .works1 {
-    padding: 5%;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    row-gap: 14%;
-  }
-
-  .skill-1 {
-    margin-top: -2rem;
-  }
-
-  /* CONTACT PART */
-
-  .contact-desc {
-    margin: auto 25%;
-  }
-
-  .space {
-    gap: 3%;
-  }
-
-  .connect {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-  }
-
-  .contact-input,
-  .contact-message {
-    width: 44.7rem;
-    border-radius: 0.2rem;
-  }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+ 
+  <nav class="nav-bar">
+
+    <div class="logo"> 
+         <a href="#"><img src="./images/My Logo.png" alt="logo for the website"></a> 
+    </div>
+  
+        <div class="dashboard">  
+           <a href="#"><img src="./images/Union.png" alt="dashboard"></a>
+        </div>
+
+        <ul class="list-nav">
+          <li> <a href="#"> Portfolio</a>  </li>
+          <li> <a href="#">about</a></li>
+          <li> <a href="#">contact</a></li>
+
+        </ul>
+
+      
+
+      </nav>
+
+ </header>
+
+  <section class="container-all">
+    <div class="container1 container"> 
+  
+      <h1 class="iam">I'm Suleiman Yusuf Gacheru. <br> Glad to see
+        you! </h1>
+     <p class="firstp">
+        I’m a software developer! I can help you build a product , 
+        feature or website Look through some of my work and experience!
+         If you like what you see and have a project you need coded, don’t hesitate to contact me.
+
+         <h2 class="connect1">let's connect</h2>
+      </p>
+
+    
+
+    <div class="link">
+      <ul class="media-icons">
+        <li>
+          <a href="#">
+            <img src="./images/Twitter.png" alt="twitter">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Linkedin icon.png" alt="linkedin">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Vector.png" alt="mail">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Github.png" alt="github">
+          </a>
+        </li>
+        <li>
+         
+            <img src="./images/Mail.png" alt="vector">
+
+    </div>
+
+  </div>
+  </section>
+    <!-- works -->
+
+    
+<section class="works">
+  <!--left sided -->
+  
+<div class="left-img container">
+  <img id="mobile-1" class="first-image" src="./images/Snapshoot Portfolio.first.png" alt="">
+
+  <div class="card-details">
+    <h2 class="headings">Tonics</h2>
+
+ <ul class="first-item">
+   <li> Canopy </li>
+   <li> back end dev</li>
+   <li> 2015</li>
+ </ul>
+
+  <p class="text-1">
+    A daily selection of privately <br>
+     personalized reads; no accounts or sign-ups required.
+  </p>
+
+  <ul class="item-2">
+      <li> html</li>
+      <li>css</li>
+      <li>javascript</li>
+  </ul>
+
+   <button class="btn">see projects</button>
+
+    </div>
+  </div>
+
+<!--left  card ends-->
+
+<!--rigth side img-->
+<div class="right-img container">
+  <img  class="first-image" src="./images/now.png" alt="">
+
+ <div class="card-details"> 
+ <h3 class="headings"> Multi-Post <br> Stories</h3>
+
+ <ul class="first-item">
+  <li>Canopy</li>
+  <li>back end dev</li>
+  <li>2015</li>
+</ul>
+
+<p class="text-1">
+  A daily selection of privately <br>
+   personalized reads; no accounts or sign-ups required.
+</p>
+ 
+<ul class="item-2">
+  <li class="link-item"> html</li>
+  <li class="link-item">Css</li>
+  <li class="link-item"> Ruby on Rails </li>
+  <li class="link-item"> javascript</li>
+
+</ul>
+
+  <button class="btn">see projects</button>   
+
+</div>
+
+</div>
+
+<!-- second card ends-->
+
+<!--left side img-->
+<div class="card-works container">
+<img  class="first-image" src="./images/now4.png" alt="">
+  <div class="card-details"> 
+    <h4 class="headings">facebook 360</h4>  
+ <ul class="first-item">
+   <li > Canopy</li>
+   <li>back end dev</li>
+   <li> 2015</li>
+ </ul>
+ 
+ <p class="text-1">A daily selection of privately  <br>
+ personalized reads; no accounts or sign-ups required.</p>
+ 
+ <ul class="item-2">
+  <li class="link-item"> html</li>
+  <li class="link-item">Css</li>
+  <li class="link-item"> Ruby on Rails </li>
+  <li class="link-item"> javascript</li>
+
+</ul>
+
+<button class="btn">see projects</button>
+</div>
+</div>
+
+<!-- third card ends-->
+
+<div class="right-img container">
+
+  <img  class="first-image" src="./images/now2.png" alt="">
+  
+<div class="card-details"> 
+<h5 class="connect-1">uber navigation</h5>
+<ul class="first-item">
+  <li>Canopy </li>
+  <li>back end dev </li>
+  <li>2015</li>
+</ul>
+
+
+ <p class="text-1">A daily selection of privately  <br>
+ personalized reads; no accounts or sign-ups required.</p>
+ 
+ 
+ <ul class="item-2">
+  <li class="link-item"> html</li>
+  <li class="link-item">Css</li>
+  <li class="link-item"> Ruby on Rails </li>
+  <li class="link-item"> javascript</li>
+
+</ul>
+
+<button class="btn">see projects</button>
+
+</div >
+</div>
+</section>
+<!-- works end here-->
+
+<section class="about-me special ">
+ <div class="works1">
+     <div class="end-1"> 
+    <h6 class="headings"> About myself</h6>
+
+   <p class="text-1">
+    Hello I’m a software developer! I can help you build <br> a product , feature or website. 
+    Look through some of my  work and experience! If you like what you see and have  a project you need coded, don’t hesitate to contact me.
+   </p>
+
+   <p class="about-p">let's connect</p>
+    <div class="link">
+       <ul class="media-icons">
+        <li>
+           <a href="#">
+             <img src="./images/Github.png" alt="twitter"> </a>
+            
+           </li>
+
+        <li>
+          <a href="#">
+          <img src="./images/Linkedin icon.png" alt="linkedin"> </a>
+       </li>
+
+       <li>
+        <a href="#">
+          <img src="./images/Vector.png" alt="mail">  </a>
+       </li>
+
+      <li>
+        <a href="#">
+          <img src="./images/Twitter.png" alt="github"></a>
+      </li>
+
+       <li> 
+        <a href=""> <img src="./images/Mail.png" alt="vector">
+        </a> 
+       </li>
+
+  </div>
+   
+    <button class="btn">Get my Resume</button>
+  </div>
+ <!--languages  start-->
+
+
+<div class="end-2"> 
+    <ul class="skill-1">
+       <li class="skill-div">
+           <h3 class="skill-heading">Languages</h3>
+      <svg
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"fill="currentColor" class="down-arrow">
+       <path
+        fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+      </svg>
+    </li>
+    
+      <div class="space">  
+      <li>
+          <ul class="languages-inputs">
+            <li>
+                <span class="lang-logo">
+                  <img  class="frontend javascript" src="./images/Frame 9 (1).png" alt="JavaScript Logo" />
+                </span>
+               <span>
+                <img class="pp-1" src="./images/javascript.mobile.png" alt=""> 
+              </span>   
+                                
+                </li>
+
+           <li>
+               <span>
+                 <img class="frontend" src="images/Frame 10 (1).png" alt="HTML Logo"  />
+                </span>
+
+                <span>
+                  <img class="pp-1" src="./images/html.mobile.png" alt="">
+                </span>
+          
+
+        </li>
+
+     <li>
+        <span>
+          <img class="frontend" src="./images/Frame 11 (1).png" b  alt="CSS Logo" />
+          <img class="pp-1" src="./images/Frame 11.mobile-css (1).png" alt="">
+        </span>
+      </li>
+
+    </ul>
+  </li>
+
+</div>
+
+  <li class="skill-div border">
+    <h3 class="skill-heading">Frameworks</h3>
+    <img class="r-a" src="./images/right-arrow.svg" alt="">
+  </li>
+    <img class="sep1" src="./images/Separator Bottom (1).png" alt="">
+  
+  <li class="skill-div border">
+    <h3 class="skill-heading">Skills</h3>
+    <img class="r-a" src="./images/right-arrow.svg" alt="">
+  </li>
+  <img class="sep2" src="./images/Separator Bottom (1).png" alt="">
+
+</ul>
+ </div>
+
+ </div>
+
+   <section class="contact">
+      <div class="contact-me container">
+          <h6 class="h-contact"> contact me</h6>
+           
+        <p class="para">
+       If you have an application you are interested in <br> developing, a feature that you need built or a project <br> that needs coding. 
+I’d love to help with it!
+        </p>
+  
+         <form  class="f-1"action="https://formspree.io/f/mvonypvv" method="post">
+          <fieldset> 
+          <input id="first-name" name="user_name" type="text" required placeholder="lores ipsum" maxlength="30" />
+         <input id="email"  name="" type="email" required placeholder="loresipsum@gmail.com" />
+        </fieldset>
+         <fieldset> 
+        <textarea name="message" placeholder="Enter your message here..."  cols="50" rows="10" maxlength="500" required></textarea>
+      </fieldset>
+       <button class="cont-btn">
+         Get in touch
+       </button>
+
+        </form>
+      </div>
+    
+    </section>
+  </section>
+</body>
+</html>
