@@ -372,7 +372,6 @@ a {
   border-top-left-radius: 6.4rem;
   padding: 12rem 0 4.8rem 0;
   background-image: url('./images/mobile-contact.png');
-  background-repeat: no-repeat;
   background-size: contain;
   background-position: top right, bottom center;
   background-repeat: no-repeat;
@@ -601,7 +600,7 @@ form {
   .sep {
     color: #dfe1e6;
   }
-/*
+
   .cont-btn {
     display: flex;
     justify-content: center;
@@ -618,7 +617,6 @@ form {
     margin: 0 auto;
     margin-top: 2%;
   }
-  */
 
   .pp-1 {
     display: none;
