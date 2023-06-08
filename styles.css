@@ -178,7 +178,6 @@ a {
   gap: 1.2rem;
 }
 
-
 .left-img {
   background-color: #fff;
   border: 1px solid #dfe1e6;
@@ -240,6 +239,22 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@keyframes changeColor {
+  0% { background-color: red; }
+  25% { background-color: blue; }
+  50% { background-color: green; }
+  75% { background-color: yellow; }
+  100% { background-color: orange; }
+}
+
+.ani li {
+  animation: changeColor 2s infinite;
+}
+
+.langs ul {
+  list-style: none;
 }
 
 .first-item li:first-child {
@@ -359,10 +374,6 @@ a {
   color: #7f8cff;
 }
 
-.langs ul {
-  list-style: none;
-}
-
 .right {
   display: inline-block;
   padding-left: 4%;
@@ -372,7 +383,7 @@ a {
   background-color: #6070ff;
   border-top-left-radius: 6.4rem;
   padding: 12rem 0 4.8rem 0;
-  background-image: url('./images/contact-2.png');
+  background-image: url('./images/contactpng');
   background-size: contain;
   background-position: top right, bottom center;
   background-repeat: no-repeat;
