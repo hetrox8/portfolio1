@@ -519,6 +519,18 @@ textarea::placeholder {
   background: #ffff;
 }
 
+@keyframes changeColor {
+  0% { background-color: red; }
+  25% { background-color: blue; }
+  50% { background-color: green; }
+  75% { background-color: yellow; }
+  100% { background-color: orange; }
+}
+
+.item-2 li {
+  animation: changeColor 2s infinite;
+}
+
 .abt-p {
   font-style: normal;
   font-weight: 400;
