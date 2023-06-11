@@ -1,21 +1,36 @@
+.first {
+  background-image: url('./images/Header\ bg@2x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px  20px;
+  background-position: 50% 10%;  
+}
+
+.container-lg {
+  width: 100%;
+  height: 100vh;
+  border-radius: 20px 20px ;
+  border: 2px solid #fff;
+}
+
 .row {
-  text-align: center;
+    background-color: #fff;
+    border-radius: 20px 20px ;
+    border: 2px solid #fff;
+    display: flex;
+
 }
 
-.blue-stripe {
-  background-color: blue;
-  float: left;
-  width: 33.33%;
+.abt-1 {
+    width: 100%;
+    height: 100vh;
 }
 
-.red-stripe {
-  background-color: blue;
-  float: left;
-  width: 33.33%;
-}
-
-.green-stripe {
-  background-color: blue;
-  float: left;
-  width: 33.33%;
+.sec-1 {
+ background-image: url('./images/contact\ form\ shapes-mobile@2x.svg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position-x:center ;
+ width: 100%;
+ height: 100vh;
 }
