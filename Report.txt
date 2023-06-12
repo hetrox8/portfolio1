@@ -1,0 +1,24 @@
+#Report for webiste Accessibility
+
+1. Page Title
+Checked the website title , changed it from Document to a brief description of 
+the website . Changed it to "Personal Portfolio"
+
+
+2. Image  Text alternative .
+Checked each image has an alternative text which  provide appropriate meaning 
+
+3.  Text Heading
+Ensure the page has got necessary heading 
+ensured text that look like heading is marked up as heading 
+Ensure correct  hierarchy is meaningful
+
+3. Interaction
+Provide lables on form section and each associated with form using a "for" , "id" 
+ensured the form gives instruction by providing a placeholder with an example of an email address format
+and "username"
+
+4. Resize Text 
+Ensured text doesn't disappear or cut off  when resizing screen size
+Ensured all text and images don't overlap each other
+Ensuring all buttons and form fields are visible
