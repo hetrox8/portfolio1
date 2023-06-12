@@ -240,7 +240,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-
+/*
 @keyframes changeColor {
   0% { background-color: red; }
   25% { background-color: blue; }
@@ -250,9 +250,10 @@ a {
 }
 
 .ani li {
-  animation: changeColor 2s infinite;
+  animation: changeColor 1s ease-in;
 }
 
+*/
 .langs ul {
   list-style: none;
 }
