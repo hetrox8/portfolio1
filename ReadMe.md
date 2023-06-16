@@ -127,7 +127,7 @@ This Project can be deployed Using the official Github page
 ### Presentation <a name="presentation"></a>
 
 This is a Presentation of the project 
-<p align="right">(a href="https://www.loom.com/share/6e90f587957140afb5d36a146f7477f5?sid=35427f39-9e7b-4ee2-b62a-d5f7b27266dc">Click here </a></p>
+<p align="right">(<a href="https://www.loom.com/share/6e90f587957140afb5d36a146f7477f5?sid=35427f39-9e7b-4ee2-b62a-d5f7b27266dc">Click here </a></p>
 
 
 
