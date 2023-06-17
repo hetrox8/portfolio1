@@ -241,18 +241,6 @@ a {
   justify-content: center;
 }
 
-@keyframes changeColor {
-  0% { background-color: red; }
-  25% { background-color: blue; }
-  50% { background-color: green; }
-  75% { background-color: yellow; }
-  100% { background-color: orange; }
-}
-
-.ani li {
-  animation: changeColor 2s infinite;
-}
-
 .langs ul {
   list-style: none;
 }
