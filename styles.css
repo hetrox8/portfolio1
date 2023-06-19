@@ -29,6 +29,59 @@ html {
   scroll-behavior: smooth;
 }
 
+.mobile-nav {
+  background-color: #6070ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
+  bottom: 0;
+  padding-left: 28px;
+  padding-top: 106px;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.visible {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  visibility: visible;
+}
+
+.hidden {
+  width: 0;
+  visibility: hidden;
+}
+
+.x-icon {
+  position: relative;
+  top: -30px;
+  left: 75vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo a {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.mobile-nav ul li a {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.mobile-nav li {
+  margin-bottom: 20px;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -45,15 +98,6 @@ html {
 
 .link {
   margin-bottom: 3.4rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-.logo a {
-  font-size: 1.2rem;
-  font-weight: 700;
 }
 
 .logo {
@@ -635,6 +679,10 @@ form {
   }
 
   .space-desk {
+    display: none;
+  }
+
+  .mobile-nav {
     display: none;
   }
 
