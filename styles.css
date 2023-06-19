@@ -30,7 +30,7 @@ html {
 }
 
 .mobile-nav {
-  background-color: #6070FF;
+  background-color: #6070ff;
   position: fixed;
   top: 0;
   left: 0;
@@ -44,22 +44,31 @@ html {
   transition: all 0.5s;
 }
 
-  .visible {
-    position: fixed;
-    left: 0;
-    width: 100vw;
-    visibility: visible;
-  }
+.visible {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  visibility: visible;
+}
 
-  .hidden {
-    width: 0;
-    visibility: hidden;
+.hidden {
+  width: 0;
+  visibility: hidden;
 }
 
 .x-icon {
   position: relative;
   top: -30px;
   left: 75vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo a {
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .mobile-nav ul li a {
@@ -89,15 +98,6 @@ html {
 
 .link {
   margin-bottom: 3.4rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-.logo a {
-  font-size: 1.2rem;
-  font-weight: 700;
 }
 
 .logo {
@@ -685,6 +685,7 @@ form {
   .mobile-nav {
     display: none;
   }
+
   /* NAVBAR SECTION  */
   .navbar {
     padding: 2.3rem 6.8rem;
