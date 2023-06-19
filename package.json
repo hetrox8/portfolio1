@@ -1,19 +1,34 @@
 {
-  "name": "portfolio_site",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjroudiRida/Portfolio.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AjroudiRida/Portfolio/issues"
+  },
+  "homepage": "https://github.com/AjroudiRida/Portfolio#readme",
   "devDependencies": {
-    "hint": "^7.1.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.9",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.11"
   }
 }
