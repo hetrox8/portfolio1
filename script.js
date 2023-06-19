@@ -10,8 +10,3 @@ closeMenu.addEventListener('click', () => {
   menu.classList.remove('visible');
   menu.classList.toggle('hidden');
 });
-
-
-
-  
-
