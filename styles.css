@@ -29,6 +29,48 @@ html {
   scroll-behavior: smooth;
 }
 
+.mobile-nav {
+  background-color: #6070FF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
+  bottom: 0;
+  padding-left: 28px;
+  padding-top: 106px;
+}
+
+  .visible {
+    position: fixed;
+    left: 0;
+    width: 100vw;
+    visibility: visible;
+  }
+
+  .hidden {
+    width: 0;
+    visibility: hidden;
+}
+
+.x-icon {
+  position: relative;
+  top: -30px;
+  left: 75vw;
+}
+
+.mobile-nav ul li a {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.mobile-nav li {
+  margin-bottom: 40px;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -638,6 +680,9 @@ form {
     display: none;
   }
 
+  .mobile-nav {
+    display: none;
+  }
   /* NAVBAR SECTION  */
   .navbar {
     padding: 2.3rem 6.8rem;
