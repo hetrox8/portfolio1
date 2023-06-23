@@ -822,6 +822,7 @@ form {
     margin: auto 10%;
   }
 
+
   .contact-me {
     background-image: url('./images/contact-original.png');
     background-repeat: no-repeat;
@@ -1096,4 +1097,8 @@ form {
     column-gap: 1rem;
   }
 
+  .error {
+    color: red;
+    display: none;
+  }
 }
