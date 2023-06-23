@@ -289,6 +289,16 @@ a {
   list-style: none;
 }
 
+.project-tech-stack li {
+  color: #6070ff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  background-color: #ebebff;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.8rem;
+}
+
 .first-item li:first-child {
   list-style: none;
   color: #344563;
@@ -800,16 +810,6 @@ form {
   gap: 0 0.8rem;
 }
 
-.project-tech-stack li {
-  color: #6070ff;
-  font-size: 1.2rem;
-  font-weight: 500;
-  line-height: 1.6rem;
-  background-color: #ebebff;
-  padding: 0.4rem 1.2rem;
-  border-radius: 0.8rem;
-}
-
 .heading-container {
   display: flex;
   justify-content: space-between;
@@ -821,7 +821,6 @@ form {
   .container {
     margin: auto 10%;
   }
-
 
   .contact-me {
     background-image: url('./images/contact-original.png');
@@ -1087,7 +1086,7 @@ form {
 
   .modal-container {
     padding: 70px 142px 100px 142px;
-  }    
+  }
 
   .project-details-modale .btnActions {
     display: flex;
@@ -1099,6 +1098,5 @@ form {
 
   .error {
     color: red;
-    display: none;
   }
 }
