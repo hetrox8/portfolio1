@@ -819,8 +819,11 @@ form {
 
 .error {
   color: red;
-  margin-top: 4%;
-  padding-left: 2%;
+  margin-top: 2%;
+}
+
+.email_border {
+  border: 2px solid red;
 }
 
 @media screen and (min-width: 768px) {
@@ -1106,4 +1109,10 @@ form {
     color: red;
     margin-top: 2%;
   }
+
+  .email_border {
+    border: 2px solid red;
+  }
+
+  
 }
