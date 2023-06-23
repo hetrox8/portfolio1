@@ -31,7 +31,8 @@ form.addEventListener('submit', (e) => {
     form.submit();
   } else {
     const errorMessage = document.querySelector('.error');
-    errorMessage.textContent = `invalid input, kindly enter your email in lowercase, e.g. ${suggestedEmail}`;
+    email.classList.add('email_border');
+    errorMessage.textContent = `Your form is not sent, please enter your email in lowercase, e.g. ${suggestedEmail}`;
     errorMessage.style.display = 'block';
   }
 });
