@@ -817,6 +817,12 @@ form {
   margin-bottom: 1.6rem;
 }
 
+.error {
+  color: red;
+  margin-top: 4%;
+  padding-left: 2%;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     margin: auto 10%;
@@ -1098,5 +1104,6 @@ form {
 
   .error {
     color: red;
+    margin-top: 2%;
   }
 }
