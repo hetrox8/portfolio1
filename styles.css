@@ -1015,7 +1015,7 @@ form {
   .link-item:nth-child(3) {
     display: inline-block;
   }
-  
+
   .card-works:nth-child(even) > .first-img {
     order: 2;
   }
@@ -1113,6 +1113,4 @@ form {
   .email_border {
     border: 2px solid red;
   }
-
-  
 }
