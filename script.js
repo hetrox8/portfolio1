@@ -51,6 +51,8 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+// add event listener to load event
+
 window.addEventListener('load', (e) => {
   e.preventDefault();
   const storageObject = JSON.parse(localStorage.getItem('myStorage'));
@@ -60,6 +62,3 @@ window.addEventListener('load', (e) => {
     document.getElementById('message').value = storageObject.message;
   }
 });
-
-
-
