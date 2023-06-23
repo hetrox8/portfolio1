@@ -1015,7 +1015,7 @@ form {
   .link-item:nth-child(3) {
     display: inline-block;
   }
-
+  
   .card-works:nth-child(even) > .first-img {
     order: 2;
   }
@@ -1023,12 +1023,12 @@ form {
   .btn {
     justify-self: left;
   }
-
+  
   /* ABOUT PART  */
   .languages-inputs {
     flex-direction: row;
   }
-
+  
   .languages-inputs li {
     list-style: none;
     flex-direction: column;
@@ -1113,4 +1113,5 @@ form {
   .email_border {
     border: 2px solid red;
   }
+  
 }
