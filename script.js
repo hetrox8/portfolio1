@@ -32,7 +32,11 @@ form.addEventListener('submit', (e) => {
   } else {
     const errorMessage = document.querySelector('.error');
     email.classList.add('email_border');
+<<<<<<< HEAD
     errorMessage.textContent = `Your form is not sent, please enter your email in lowercase, e.g. ${suggestedEmail}`;
+=======
+    errorMessage.textContent = `invalid input ,kindly use lowercase , e.g. ${suggestedEmail}`;
+>>>>>>> 2f557f4515cd0217cfbdf048fbf47da9e9bda4ba
     errorMessage.style.display = 'block';
   }
 });
