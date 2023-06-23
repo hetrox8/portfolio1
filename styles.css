@@ -1019,9 +1019,11 @@ form {
   .card-works:nth-child(even) > .first-img {
     oder: 2;
   }
+  
   .btn {
     justify-self: left;
   }
+  
   /* ABOUT PART  */
   .languages-inputs {
     flex-direction: row;
