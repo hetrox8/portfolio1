@@ -11,6 +11,41 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="bg-blur"></div>
+  <div class="modal-container">
+        <div class="project-details-modale">
+            <div class="heading-container">
+                <h3></h3>
+                <img class="close-modal" src="./images/close-modal.png">
+            </div>
+            <div class="project-highlights-modal">
+                <ul>
+                    <li>CANOPY</li>
+                    <li>Back End Dev</li>
+                    <li>2015</li>
+                </ul>
+            </div>
+            <div class="img-container-modal">
+                <img class="project-img" src="">
+            </div>
+            <div class="main-container-modal">
+                <p class="description">
+                </p>
+                <div class="container-tech">
+                    <ul class="project-tech-stack">
+                        <li><a>HTML</a></li>
+                        <li><a>CSS</a></li>
+                        <li><a>Javascript</a></li>
+                    </ul>
+                    <hr>
+                    <div class="btnActions">
+                        <a href="#" class="btn">See live</a>
+                        <a href="#" class="btn">See resource</a>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </div>
   <header>
  
   <nav class="nav-bar">
@@ -94,7 +129,7 @@
 <section class="works">
   <!--left sided -->
   
-<div class="left-img container">
+<div class="left-img container project">
   <img id="mobile-1" class="first-image" src="./images/Snapshoot Portfolio.first.png" alt="commercial displaying building bionic  forms for 35 ($) dollars">
 
   <div class="card-details">
@@ -120,16 +155,16 @@
    <button class="btn">see projects</button>
 
     </div>
-  </div>
+</div>
 
 <!--left  card ends-->
 
 <!--rigth side img-->
-<div class="right-img container">
+<div class="right-img container project">
   <img  class="first-image" src="./images/now.png" alt="commercial for Printing services">
 
  <div class="card-details"> 
- <h4 class="headings"> Multi-Post <br> Stories</h4>
+ <h3 class="headings"> Multi-Post <br> Stories</h3>
 
  <ul class="first-item">
   <li>Canopy</li>
@@ -159,10 +194,10 @@
 <!-- second card ends-->
 
 <!--left side img-->
-<div class="card-works container">
+<div class="card-works container project">
 <img  class="first-image" src="./images/now4.png" alt="background story for the developer. going from highschool dropout to product  desinger">
   <div class="card-details"> 
-    <h5 class="headings">facebook 360</h5>  
+    <h3 class="headings">facebook 360</h5>  
  <ul class="first-item">
    <li > Canopy</li>
    <li>back end dev</li>
@@ -186,12 +221,12 @@
 
 <!-- third card ends-->
 
-<div class="right-img container">
+<div class="right-img container project">
 
   <img  class="first-image" src="./images/now2.png" alt="webiste's services time schedule">
   
 <div class="card-details"> 
-<h6 class="connect-1">uber navigation</h6>
+<h3 class="connect-1">uber navigation</h6>
 <ul class="first-item">
   <li>Canopy </li>
   <li>back end dev </li>
@@ -218,7 +253,7 @@
 </section>
 <!-- works end here-->
 
-<section id="about" class="about-me special ">
+<section id="about" class="about-me special">
  <div class="works1">
      <div class="end-1"> 
     <p class="headings"> About myself</p>
@@ -338,11 +373,11 @@
        If you have an application you are interested in <br> developing, a feature that you need built or a project <br> that needs coding. 
 I’d love to help with it!
         </p>
-  
+  <div class="form" id="first-form"> 
          <form  class="f-1"action="https://formspree.io/f/mvonypvv" method="post">
           <fieldset> 
           <input id="first-name" name="user_name" type="text" required placeholder="lores ipsum" maxlength="30" />
-         <input id="email"  name="" type="email" required placeholder="loresipsum@gmail.com" />
+         <input id="email" class=" email_input"  name="" type="email" required placeholder="loresipsum@gmail.com" />
         </fieldset>
          <fieldset> 
         <textarea name="message" placeholder="Enter your message here..."  cols="50" rows="10" maxlength="500" required></textarea>
@@ -353,10 +388,12 @@ I’d love to help with it!
 
         </form>
       </div>
+      </div>
     </div>
     
     </section>
   </section>
   <script src="./script.js"></script>
+  <script src="./pop.js"></script>
 </body>
 </html>

@@ -1,6 +1,4 @@
-
-
-  const hamburgerBtn = document.querySelector('.hamburgerBtn');
+const hamburgerBtn = document.querySelector('.hamburgerBtn');
 const menu = document.querySelector('.mobile-nav');
 const closeMenu = document.querySelector('.x-icon');
 const menuOptions = menu.getElementsByTagName('li');
@@ -20,3 +18,20 @@ for (let i = 0; i < menuOptions.length; i += 1) {
     menu.classList.toggle('hidden');
   });
 }
+
+
+const form = document.getElementById('first-form');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = document.querySelector('.email-input').value;
+  const suggestedEmail = document.querySelector('.email-input').value.toLowerCase();
+
+  if (email === suggestedEmail) {
+    form.submit();
+  } else {
+    const errorMessage = document.querySelector('.errors');
+    errorMessage.textContent = `Your form is not sent, please enter your email in lowercase, e.g. ${suggestedEmail}`;
+    errorMessage.style.display = 'block';
+  }
+});
