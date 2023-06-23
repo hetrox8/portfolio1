@@ -36,4 +36,5 @@ form.addEventListener('submit', (e) => {
     errorMessage.textContent = `Your form is not sent, please enter your email in lowercase, e.g. ${suggestedEmail}`;
     errorMessage.style.display = 'block';
   }
+
 });

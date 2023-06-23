@@ -1,11 +1,9 @@
-
 const workContainer = document.querySelector('.works');
 const projects = workContainer.getElementsByClassName('project');
 const modal = document.querySelector('.modal-container');
 
 for (let i = 0; i < projects.length; i += 1) {
   const projectBtn = projects[i].getElementsByClassName('btn');
-  console.log(projects[i]);
   projectBtn[0].addEventListener('click', () => {
     modal.classList.remove('hiddenModal');
     modal.classList.toggle('showModal');
