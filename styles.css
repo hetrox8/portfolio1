@@ -1095,4 +1095,8 @@ form {
     row-gap: 1rem;
     column-gap: 1rem;
   }
+
+  .error {
+    color: red;
+  }
 }
