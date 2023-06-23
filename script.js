@@ -1,6 +1,4 @@
-
-
-  const hamburgerBtn = document.querySelector('.hamburgerBtn');
+const hamburgerBtn = document.querySelector('.hamburgerBtn');
 const menu = document.querySelector('.mobile-nav');
 const closeMenu = document.querySelector('.x-icon');
 const menuOptions = menu.getElementsByTagName('li');
