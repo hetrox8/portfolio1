@@ -817,6 +817,15 @@ form {
   margin-bottom: 1.6rem;
 }
 
+.error {
+  color: red;
+  margin-top: 2%;
+}
+
+.email_border {
+  border: 2px solid red;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     margin: auto 10%;
@@ -1098,5 +1107,10 @@ form {
 
   .error {
     color: red;
+    margin-top: 2%;
+  }
+
+  .email_border {
+    border: 2px solid red;
   }
 }
