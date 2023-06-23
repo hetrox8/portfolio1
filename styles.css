@@ -1019,7 +1019,7 @@ form {
   .card-works:nth-child(even) > .first-img {
     order: 2;
   }
-  
+ 
   .btn {
     justify-self: left;
   }
