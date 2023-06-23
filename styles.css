@@ -1017,18 +1017,18 @@ form {
   }
 
   .card-works:nth-child(even) > .first-img {
-    oder: 2;
+    order: 2;
   }
-  
+
   .btn {
     justify-self: left;
   }
-  
+
   /* ABOUT PART  */
   .languages-inputs {
     flex-direction: row;
   }
-  
+
   .languages-inputs li {
     list-style: none;
     flex-direction: column;
@@ -1113,5 +1113,4 @@ form {
   .email_border {
     border: 2px solid red;
   }
-  
 }
