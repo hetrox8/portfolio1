@@ -35,4 +35,31 @@ form.addEventListener('submit', (e) => {
     errorMessage.textContent = `invalid input ,kindly use lowercase , e.g. ${suggestedEmail}`;
     errorMessage.style.display = 'block';
   }
+
+  const myStorage = {
+    name: document.getElementById('first_name').value,
+    email: document.querySelector('.email_input').value,
+    message: document.getElementById('message').value,
+  };
+
+  if (email === suggestedEmail) {
+    localStorage.setItem('myStorage', JSON.stringify(myStorage));
+    form.submit();
+  } else {
+    const errorMessage = document.querySelector('.error');
+    errorMessage.textContent = `Your form is not sent, please enter your email in lowercase, e.g. ${suggestedEmail}`;
+    errorMessage.style.display = 'block';
+  }
+});
+
+// add event listener to load event
+
+window.addEventListener('load', (e) => {
+  e.preventDefault();
+  const storageObject = JSON.parse(localStorage.getItem('myStorage'));
+  if (storageObject) {
+    document.getElementById('fname').value = storageObject.name;
+    document.querySelector('.email-input').value = storageObject.email;
+    document.getElementById('message').value = storageObject.message;
+  }
 });
